@@ -22,7 +22,8 @@
 1. 克隆项目到本地
 
 ```bash
-git clone https://github.com/yourusername/nhanes-clustering.git
+git clone https://github.com/luka7620/NHANES-Health-Population-Analysis
+.git
 cd nhanes-clustering
 ```
 
