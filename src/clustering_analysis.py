@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 from sklearn.cluster import SpectralClustering
-from sklearn.metrics import silhouette_score
+from sklearn.metrics import silhouette_score, silhouette_samples
 from sklearn.manifold import TSNE
 import time
 import warnings
@@ -433,6 +433,278 @@ def analyze_health_groups(data, clusters, cluster_name):
     print(f"健康群体分析和建议已保存到: {os.path.join(results_dir, f'{cluster_name}_health_recommendations.txt')}")
 
 
+def plot_elbow_method(scaled_data):
+    """
+    手肘法 + 轮廓系数法确定最优K值
+    """
+    print("\n正在绘制手肘法和轮廓系数图...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(os.path.dirname(current_dir), "results")
+    if not os.path.exists(results_dir):
+        os.makedirs(results_dir)
+
+    k_range = range(2, 11)
+    inertias = []
+    sil_scores = []
+
+    for k in k_range:
+        kmeans = KMeans(n_clusters=k, random_state=42, n_init="auto")
+        kmeans.fit(scaled_data)
+        inertias.append(kmeans.inertia_)
+        sil_scores.append(silhouette_score(scaled_data, kmeans.labels_))
+        print(f"  K={k}: 惯性={kmeans.inertia_:.2f}, 轮廓系数={sil_scores[-1]:.4f}")
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+
+    ax1.plot(list(k_range), inertias, 'bo-', linewidth=2, markersize=8)
+    ax1.set_xlabel('聚类数量 K', fontsize=12)
+    ax1.set_ylabel('惯性 (Inertia)', fontsize=12)
+    ax1.set_title('手肘法确定最优K值', fontsize=14)
+    ax1.grid(True, linestyle='--', alpha=0.7)
+    ax1.set_xticks(list(k_range))
+
+    ax2.plot(list(k_range), sil_scores, 'ro-', linewidth=2, markersize=8)
+    ax2.set_xlabel('聚类数量 K', fontsize=12)
+    ax2.set_ylabel('轮廓系数', fontsize=12)
+    ax2.set_title('不同K值的轮廓系数', fontsize=14)
+    ax2.grid(True, linestyle='--', alpha=0.7)
+    ax2.set_xticks(list(k_range))
+
+    best_k = list(k_range)[np.argmax(sil_scores)]
+    best_score = max(sil_scores)
+    ax2.annotate(f'最优 K={best_k}\n轮廓系数={best_score:.4f}',
+                 xy=(best_k, best_score),
+                 xytext=(best_k + 1.5, best_score - 0.02),
+                 arrowprops=dict(arrowstyle='->', color='red', lw=2),
+                 fontsize=11, color='red', fontweight='bold')
+
+    plt.suptitle('K-Means 最优聚类数量分析', fontsize=16, y=1.02)
+    plt.tight_layout()
+    plt.savefig(os.path.join(results_dir, 'elbow_silhouette_method.png'), dpi=300, bbox_inches='tight')
+    plt.close()
+    print("手肘法和轮廓系数图已保存")
+
+
+def plot_silhouette_detail(scaled_data, clusters, cluster_name):
+    """
+    绘制每个样本的轮廓系数分布图
+    """
+    print(f"正在绘制 {cluster_name} 轮廓系数详细图...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(os.path.dirname(current_dir), "results")
+
+    valid_mask = clusters != -1
+    if np.sum(valid_mask) < 2:
+        print(f"  {cluster_name}: 有效样本不足，跳过")
+        return
+
+    valid_data = scaled_data[valid_mask]
+    valid_clusters = clusters[valid_mask]
+    unique_labels = np.unique(valid_clusters)
+    n_clusters = len(unique_labels)
+
+    if n_clusters < 2 or n_clusters > 20:
+        print(f"  {cluster_name}: 聚类数为{n_clusters}，不适合绘制轮廓图，跳过")
+        return
+
+    sample_sil_values = silhouette_samples(valid_data, valid_clusters)
+    sil_avg = silhouette_score(valid_data, valid_clusters)
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+    y_lower = 10
+    colors = plt.cm.get_cmap('tab10')(np.linspace(0, 1, n_clusters))
+
+    for i, label in enumerate(sorted(unique_labels)):
+        vals = sample_sil_values[valid_clusters == label]
+        vals.sort()
+        y_upper = y_lower + len(vals)
+        ax.fill_betweenx(np.arange(y_lower, y_upper), 0, vals,
+                         facecolor=colors[i], edgecolor=colors[i], alpha=0.7)
+        ax.text(-0.05, y_lower + 0.5 * len(vals), f'群体 {label + 1}',
+                fontsize=10, fontweight='bold')
+        y_lower = y_upper + 10
+
+    ax.axvline(x=sil_avg, color='red', linestyle='--', linewidth=2,
+               label=f'平均轮廓系数: {sil_avg:.4f}')
+    ax.set_title(f'{cluster_name} 聚类 - 轮廓系数分布', fontsize=14)
+    ax.set_xlabel('轮廓系数值', fontsize=12)
+    ax.set_ylabel('样本（按群体分组）', fontsize=12)
+    ax.legend(fontsize=11, loc='best')
+    ax.set_yticks([])
+
+    plt.tight_layout()
+    plt.savefig(os.path.join(results_dir, f'{cluster_name}_silhouette_detail.png'), dpi=300)
+    plt.close()
+    print(f"  {cluster_name} 轮廓系数详细图已保存")
+
+
+def plot_feature_heatmap(data, clusters, cluster_name, features):
+    """
+    各群体特征均值热力图
+    """
+    print(f"正在绘制 {cluster_name} 特征热力图...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(os.path.dirname(current_dir), "results")
+
+    data_copy = data.copy()
+    data_copy['Cluster'] = clusters
+    data_copy = data_copy[data_copy['Cluster'] != -1]
+
+    unique_labels = data_copy['Cluster'].unique()
+    if len(unique_labels) > 20:
+        print(f"  {cluster_name}: 聚类数过多({len(unique_labels)})，跳过热力图")
+        return
+
+    cluster_means = data_copy.groupby('Cluster').mean()
+    normalized = (cluster_means - cluster_means.mean()) / cluster_means.std()
+    normalized.index = [f'群体 {int(i) + 1}' for i in normalized.index]
+
+    fname = {'RIDAGEYR': '年龄', 'RIAGENDR': '性别', 'BMXBMI': 'BMI',
+             'BPXSY1': '收缩压', 'BPXDI1': '舒张压', 'LBXTC': '总胆固醇',
+             'LBXTR': '甘油三酯', 'SMQ020': '吸烟状况', 'ALQ101': '饮酒状况',
+             'LBXGLU': '血糖', 'LBXGH': '糖化血红蛋白', 'LBXGLT': '口服糖耐量',
+             'LBXHDL': 'HDL胆固醇', 'LBDLDL': 'LDL胆固醇'}
+    normalized.columns = [fname.get(c, c) for c in normalized.columns]
+
+    plt.figure(figsize=(12, max(6, len(unique_labels) * 0.8)))
+    sns.heatmap(normalized, annot=True, fmt='.2f', cmap='RdYlBu_r',
+                center=0, linewidths=0.5, linecolor='white',
+                cbar_kws={'label': '标准化特征值 (Z-score)'})
+    plt.title(f'{cluster_name} 聚类 - 各群体特征均值热力图', fontsize=14)
+    plt.xlabel('健康指标', fontsize=12)
+    plt.ylabel('群体', fontsize=12)
+    plt.xticks(rotation=45, ha='right')
+
+    plt.tight_layout()
+    plt.savefig(os.path.join(results_dir, f'{cluster_name}_feature_heatmap.png'), dpi=300)
+    plt.close()
+    print(f"  {cluster_name} 特征热力图已保存")
+
+
+def plot_correlation_heatmap(data, features):
+    """
+    特征相关性热力图
+    """
+    print("\n正在绘制特征相关性热力图...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(os.path.dirname(current_dir), "results")
+    if not os.path.exists(results_dir):
+        os.makedirs(results_dir)
+
+    fname = {'RIDAGEYR': '年龄', 'RIAGENDR': '性别', 'BMXBMI': 'BMI',
+             'BPXSY1': '收缩压', 'BPXDI1': '舒张压', 'LBXTC': '总胆固醇',
+             'LBXTR': '甘油三酯', 'SMQ020': '吸烟状况', 'ALQ101': '饮酒状况',
+             'LBXGLU': '血糖', 'LBXGH': '糖化血红蛋白', 'LBXGLT': '口服糖耐量',
+             'LBXHDL': 'HDL胆固醇', 'LBDLDL': 'LDL胆固醇'}
+
+    corr_data = data[features].copy()
+    corr_data.columns = [fname.get(c, c) for c in corr_data.columns]
+    corr_matrix = corr_data.corr()
+
+    plt.figure(figsize=(10, 8))
+    mask = np.triu(np.ones_like(corr_matrix, dtype=bool), k=1)
+    sns.heatmap(corr_matrix, mask=mask, annot=True, fmt='.2f',
+                cmap='coolwarm', center=0, square=True,
+                linewidths=0.5, linecolor='white',
+                cbar_kws={'label': 'Pearson 相关系数'})
+    plt.title('健康指标相关性热力图', fontsize=14)
+    plt.xticks(rotation=45, ha='right')
+
+    plt.tight_layout()
+    plt.savefig(os.path.join(results_dir, 'feature_correlation_heatmap.png'), dpi=300)
+    plt.close()
+    print("特征相关性热力图已保存")
+
+
+def plot_tsne_clusters(tsne_result, clusters_sampled, cluster_name):
+    """
+    t-SNE降维聚类可视化（使用预计算的t-SNE结果）
+    """
+    print(f"正在绘制 {cluster_name} t-SNE可视化...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(os.path.dirname(current_dir), "results")
+
+    plt.figure(figsize=(12, 10))
+    unique_clusters = np.unique(clusters_sampled)
+    colors = plt.cm.get_cmap('tab10')(np.linspace(0, 1, len(unique_clusters)))
+
+    for i, cluster in enumerate(unique_clusters):
+        mask = clusters_sampled == cluster
+        if cluster == -1:
+            plt.scatter(tsne_result[mask, 0], tsne_result[mask, 1],
+                        s=30, c='black', marker='x', label='噪声', alpha=0.5)
+        else:
+            plt.scatter(tsne_result[mask, 0], tsne_result[mask, 1],
+                        s=30, c=[colors[i]], label=f'群体 {cluster + 1}', alpha=0.7)
+
+    plt.title(f'{cluster_name} 聚类 - t-SNE降维可视化', fontsize=15)
+    plt.xlabel('t-SNE维度1', fontsize=12)
+    plt.ylabel('t-SNE维度2', fontsize=12)
+    plt.legend(fontsize=10, loc='best')
+    plt.grid(True, linestyle='--', alpha=0.3)
+
+    plt.tight_layout()
+    plt.savefig(os.path.join(results_dir, f'{cluster_name}_tsne_visualization.png'), dpi=300)
+    plt.close()
+    print(f"  {cluster_name} t-SNE可视化已保存")
+
+
+def plot_feature_boxplots(data, clusters, cluster_name, features):
+    """
+    各群体特征分布箱线图
+    """
+    print(f"正在绘制 {cluster_name} 特征分布箱线图...")
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(os.path.dirname(current_dir), "results")
+
+    data_copy = data.copy()
+    data_copy['Cluster'] = clusters
+    data_copy = data_copy[data_copy['Cluster'] != -1]
+
+    unique_labels = data_copy['Cluster'].unique()
+    if len(unique_labels) > 20:
+        print(f"  {cluster_name}: 聚类数过多({len(unique_labels)})，跳过箱线图")
+        return
+
+    data_copy['群体'] = data_copy['Cluster'].apply(lambda x: f'群体{int(x)+1}')
+
+    fname = {'RIDAGEYR': '年龄', 'RIAGENDR': '性别', 'BMXBMI': 'BMI',
+             'BPXSY1': '收缩压', 'BPXDI1': '舒张压', 'LBXTC': '总胆固醇',
+             'LBXTR': '甘油三酯', 'SMQ020': '吸烟状况', 'ALQ101': '饮酒状况',
+             'LBXGLU': '血糖', 'LBXGH': '糖化血红蛋白', 'LBXGLT': '口服糖耐量',
+             'LBXHDL': 'HDL胆固醇', 'LBDLDL': 'LDL胆固醇'}
+
+    plot_features = [f for f in features if f not in ['RIAGENDR', 'SMQ020', 'ALQ101']]
+    n_features = len(plot_features)
+    if n_features == 0:
+        return
+
+    cols = 3
+    rows = (n_features + cols - 1) // cols
+    fig, axes = plt.subplots(rows, cols, figsize=(6 * cols, 5 * rows))
+    if rows * cols == 1:
+        axes = np.array([axes])
+    axes = axes.flatten()
+
+    palette = sns.color_palette('Set2', n_colors=len(unique_labels))
+    for i, feature in enumerate(plot_features):
+        sns.boxplot(data=data_copy, x='群体', y=feature, ax=axes[i],
+                    palette=palette, fliersize=3)
+        axes[i].set_title(fname.get(feature, feature), fontsize=13, fontweight='bold')
+        axes[i].set_xlabel('')
+        axes[i].tick_params(axis='x', rotation=45)
+
+    for j in range(n_features, len(axes)):
+        axes[j].set_visible(False)
+
+    plt.suptitle(f'{cluster_name} 聚类 - 各群体特征分布箱线图', fontsize=16, y=1.02)
+    plt.tight_layout()
+    plt.savefig(os.path.join(results_dir, f'{cluster_name}_feature_boxplots.png'),
+                dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"  {cluster_name} 特征分布箱线图已保存")
+
+
 def main():
     # 加载数据
     df = load_data()
@@ -443,27 +715,62 @@ def main():
     # 降维用于可视化
     reduced_data = reduce_dimensions(scaled_data)
     
+    # ===== 基础分析可视化 =====
+    # 手肘法 + 轮廓系数最优K值分析
+    plot_elbow_method(scaled_data)
+    
+    # 特征相关性热力图
+    plot_correlation_heatmap(data, features)
+    
+    # t-SNE降维（一次性计算，所有算法共用）
+    print("\n正在计算t-SNE降维（一次性计算）...")
+    tsne_sample_size = min(len(scaled_data), 5000)
+    if len(scaled_data) > tsne_sample_size:
+        tsne_idx = np.random.RandomState(42).choice(
+            len(scaled_data), tsne_sample_size, replace=False)
+    else:
+        tsne_idx = np.arange(len(scaled_data))
+    tsne = TSNE(n_components=2, random_state=42, perplexity=30, max_iter=1000)
+    tsne_result = tsne.fit_transform(scaled_data[tsne_idx])
+    print("t-SNE降维完成")
+    
     # 1. K均值聚类
     kmeans_clusters = kmeans_clustering(scaled_data)
     visualize_clusters(data, reduced_data, kmeans_clusters, "kmeans", features)
     analyze_health_groups(data, kmeans_clusters, "kmeans")
+    plot_silhouette_detail(scaled_data, kmeans_clusters, "kmeans")
+    plot_feature_heatmap(data, kmeans_clusters, "kmeans", features)
+    plot_tsne_clusters(tsne_result, kmeans_clusters[tsne_idx], "kmeans")
+    plot_feature_boxplots(data, kmeans_clusters, "kmeans", features)
     
     # 2. 层次聚类
     hierarchical_clusters = hierarchical_clustering(scaled_data)
     visualize_clusters(data, reduced_data, hierarchical_clusters, "hierarchical", features)
     analyze_health_groups(data, hierarchical_clusters, "hierarchical")
+    plot_silhouette_detail(scaled_data, hierarchical_clusters, "hierarchical")
+    plot_feature_heatmap(data, hierarchical_clusters, "hierarchical", features)
+    plot_tsne_clusters(tsne_result, hierarchical_clusters[tsne_idx], "hierarchical")
+    plot_feature_boxplots(data, hierarchical_clusters, "hierarchical", features)
     
     # 3. DBSCAN聚类
     dbscan_clusters = dbscan_clustering(scaled_data)
     visualize_clusters(data, reduced_data, dbscan_clusters, "dbscan", features)
     analyze_health_groups(data, dbscan_clusters, "dbscan")
+    plot_silhouette_detail(scaled_data, dbscan_clusters, "dbscan")
+    plot_feature_heatmap(data, dbscan_clusters, "dbscan", features)
+    plot_tsne_clusters(tsne_result, dbscan_clusters[tsne_idx], "dbscan")
+    plot_feature_boxplots(data, dbscan_clusters, "dbscan", features)
     
     # 4. 优化的谱聚类
     spectral_clusters = optimized_spectral_clustering(scaled_data)
     visualize_clusters(data, reduced_data, spectral_clusters, "spectral", features)
     analyze_health_groups(data, spectral_clusters, "spectral")
+    plot_silhouette_detail(scaled_data, spectral_clusters, "spectral")
+    plot_feature_heatmap(data, spectral_clusters, "spectral", features)
+    plot_tsne_clusters(tsne_result, spectral_clusters[tsne_idx], "spectral")
+    plot_feature_boxplots(data, spectral_clusters, "spectral", features)
     
-    print("所有聚类算法执行完毕，结果已保存到results目录")
+    print("\n所有聚类算法及可视化执行完毕，结果已保存到results目录")
 
 
 if __name__ == "__main__":
