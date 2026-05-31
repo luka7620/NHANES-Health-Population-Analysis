@@ -1,103 +1,85 @@
-# NHANES健康群体聚类分析与个性化健康管理系统
+# NHANES 医学数据仓库与数据挖掘系统
 
-## 项目简介
+本项目用于“数据仓库与数据挖掘”课程大作业，医学场景为：基于 NHANES 公开脱敏健康数据，构建心代谢风险数据仓库，完成聚合分析、Apriori 关联规则挖掘和决策树分类预测，并通过 Streamlit 系统展示结果。
 
-本项目是一个基于NHANES（美国国家健康与营养调查）数据的健康群体聚类分析系统。通过应用多种机器学习聚类算法，对健康数据进行分析，从而实现人群健康特征分类和个性化健康管理建议生成。
+## 作业要求覆盖
 
-## 功能特点
+| 要求 | 项目实现 |
+| --- | --- |
+| 医学领域数据 | NHANES 健康、体检、实验室、问卷、用药公开脱敏数据 |
+| 数据导入 | Streamlit 上传 CSV 或默认读取 `data/nhanes_processed.csv` |
+| 数据预处理 | 按 `SEQN` 汇总受试者，清洗未知编码和异常值，构造 BMI、血压、糖尿病、胆固醇、饮食、活动和用药特征 |
+| 数据仓库 | SQLite：ODS 原始层、DWD 清洗宽表、ADS 聚合表、DM 挖掘结果表 |
+| 聚合分析 | 按年龄、性别、BMI、风险等级统计高风险率、糖尿病率、高血压率、高胆固醇率等 |
+| 关联规则 | Apriori 挖掘生活方式、检查指标、疾病风险、用药标签之间的规则 |
+| 分类算法 | 决策树预测心代谢高风险人群，输出 Accuracy、Precision、Recall、F1、混淆矩阵、特征重要性 |
+| 系统展示 | `streamlit run src/app.py` 启动完整 Web 系统 |
+| 报告材料 | 自动生成 HTML、Markdown、Word 报告和数据仓库设计文档 |
 
-- **多种聚类算法**：实现了K-means、层次聚类(Hierarchical)、DBSCAN和谱聚类(Spectral)多种算法
-- **数据可视化**：生成直观的聚类结果可视化图表，帮助理解不同健康群体的特征
-- **个性化健康建议**：基于聚类结果为不同健康群体生成定制化健康管理建议
-- **综合分析报告**：自动生成HTML格式的交互式分析报告，便于查阅和分享研究结果
-
-## 系统要求
-
-- Python 3.8或更高版本
-- 足够的内存处理大规模数据集(建议8GB以上)
-- 支持Windows、macOS和Linux系统
-
-## 安装说明
-
-1. 克隆项目到本地
-
-```bash
-git clone https://github.com/luka7620/NHANES-Health-Population-Analysis
-.git
-cd nhanes-clustering
-```
-
-2. 创建并激活虚拟环境(建议)
-
-```bash
-# Windows
-python -m venv .venv
-.venv\Scripts\activate
-
-# macOS/Linux
-python -m venv .venv
-source .venv/bin/activate
-```
-
-3. 安装依赖包
+## 环境安装
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 使用方法
+## 启动 Streamlit 系统
 
-1. 确保数据文件位于`data`目录下
-2. 运行主程序
+```bash
+streamlit run src/app.py
+```
+
+系统页面包含：
+
+- 数据导入
+- 预处理与数据仓库
+- 聚合分析
+- 关联规则
+- 分类预测
+- 结果导出
+- 系统说明
+
+## 命令行一键复现
 
 ```bash
 python src/main.py
 ```
 
-3. 分析完成后，系统将在`results`目录中生成以下文件：
-   - CSV格式的聚类结果
-   - 聚类可视化图像
-   - 健康管理建议文本
-   - 综合HTML分析报告
+可选参数：
 
-4. 使用浏览器打开`results/clustering_report.html`查看完整分析报告
+```bash
+python src/main.py --min-support 0.08 --min-confidence 0.55 --max-depth 5
+```
+
+## 主要输出
+
+运行后生成：
+
+- `results/nhanes_health_subjects.csv`：预处理后的受试者级数据
+- `results/nhanes_health_warehouse.db`：SQLite 数据仓库
+- `results/aggregation_by_*.csv`：聚合分析结果
+- `results/association_rules.csv`：Apriori 关联规则
+- `results/classification_metrics.csv`：分类模型评价指标
+- `results/classification_confusion_matrix.png`：混淆矩阵
+- `results/classification_feature_importance.png`：特征重要性
+- `results/health_mining_report.html`：自动 HTML 报告
+- `docs/data_warehouse_design.md`：数据仓库设计文档
+- `docs/course_report.md`、`docs/course_report.docx`、`docs/course_report.pdf`：课程大作业报告
 
 ## 项目结构
 
-```
-.
-├── data/                # NHANES数据集
-├── results/             # 分析结果和报告
-├── src/                 # 源代码
-│   ├── main.py          # 主程序入口
-│   ├── extended_clustering.py    # 聚类算法实现
-│   ├── clustering_analysis.py    # 聚类分析逻辑
-│   ├── data_exploration.py       # 数据探索模块
-│   ├── spectral_clustering.py    # 谱聚类实现
-│   └── generate_report.py        # 报告生成模块
-├── .venv/               # Python虚拟环境(可选)
-└── README.md            # 项目说明文档
+```text
+data/                         数据集
+docs/                         课程报告和数据仓库设计文档
+results/                      算法结果、图表、SQLite 仓库
+src/app.py                    Streamlit 系统界面
+src/main.py                   命令行入口
+src/health_mining_pipeline.py 数据预处理、仓库、聚合、关联规则、分类、报告生成
 ```
 
-## 注意事项
+## 数据说明
 
-- 首次运行时间可能较长，取决于数据集大小和计算机性能
-- 确保有足够的磁盘空间存储结果文件，尤其是可视化图表
-- 建议在虚拟环境中运行，避免依赖包冲突
+数据来源为 CDC NHANES 公开数据。仓库中的合并数据使用 `SEQN` 作为脱敏受试者编号，不包含姓名、电话、地址等直接身份信息。系统默认分析成人受试者，并围绕心代谢风险进行特征工程和数据挖掘。
 
-## 扩展与定制
+## 原有聚类模块
 
-- 可在`src/extended_clustering.py`中添加新的聚类算法
-- 可在`src/generate_report.py`中自定义报告格式和内容
-- 可根据需要调整聚类参数以适应不同数据集特点
-
-## 联系与支持
-
-如有问题或建议，请通过以下方式联系：
-
-- 提交Issues: [https://github.com/yourusername/nhanes-clustering/issues](https://github.com/yourusername/nhanes-clustering/issues)
-- 邮件联系: your.email@example.com
-
-## 许可证
-
-本项目采用MIT许可证，详情请参阅LICENSE文件。 
+仓库中仍保留原有聚类分析代码和结果文件，包括 K-means、层次聚类、DBSCAN、谱聚类等；本次课程作业的默认入口已切换为聚合分析、关联规则和分类预测这三类硬性要求。

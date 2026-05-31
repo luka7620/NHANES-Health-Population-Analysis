@@ -1,0 +1,99 @@
+              precision    recall  f1-score   support
+
+           0       0.83      0.86      0.84       869
+           1       0.87      0.84      0.85       965
+
+    accuracy                           0.85      1834
+   macro avg       0.85      0.85      0.85      1834
+weighted avg       0.85      0.85      0.85      1834
+
+
+Decision tree rules:
+|--- hba1c <= -0.05
+|   |--- bmi <= 0.18
+|   |   |--- age_group_60+ <= 0.50
+|   |   |   |--- ever_smoker <= 0.50
+|   |   |   |   |--- sedentary_minutes <= 0.74
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sedentary_minutes >  0.74
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- ever_smoker >  0.50
+|   |   |   |   |--- sedentary_minutes <= 0.74
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sedentary_minutes >  0.74
+|   |   |   |   |   |--- class: 1
+|   |   |--- age_group_60+ >  0.50
+|   |   |   |--- fiber_g <= -0.24
+|   |   |   |   |--- ever_smoker <= 0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- ever_smoker >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- fiber_g >  -0.24
+|   |   |   |   |--- ever_smoker <= 0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- ever_smoker >  0.50
+|   |   |   |   |   |--- class: 1
+|   |--- bmi >  0.18
+|   |   |--- ever_smoker <= 0.50
+|   |   |   |--- systolic_bp <= 0.62
+|   |   |   |   |--- sedentary_minutes <= 0.74
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sedentary_minutes >  0.74
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- systolic_bp >  0.62
+|   |   |   |   |--- income_poverty_ratio <= -0.34
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- income_poverty_ratio >  -0.34
+|   |   |   |   |   |--- class: 1
+|   |   |--- ever_smoker >  0.50
+|   |   |   |--- fiber_g <= -0.22
+|   |   |   |   |--- sodium_mg <= -0.64
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- sodium_mg >  -0.64
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- fiber_g >  -0.22
+|   |   |   |   |--- triglycerides <= -0.01
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- triglycerides >  -0.01
+|   |   |   |   |   |--- class: 1
+|--- hba1c >  -0.05
+|   |--- bmi <= 0.15
+|   |   |--- age <= 0.55
+|   |   |   |--- ever_smoker <= 0.50
+|   |   |   |   |--- sedentary_minutes <= 0.13
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sedentary_minutes >  0.13
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- ever_smoker >  0.50
+|   |   |   |   |--- triglycerides <= 0.27
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- triglycerides >  0.27
+|   |   |   |   |   |--- class: 1
+|   |   |--- age >  0.55
+|   |   |   |--- fiber_g <= -0.22
+|   |   |   |   |--- sodium_mg <= -0.75
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- sodium_mg >  -0.75
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- fiber_g >  -0.22
+|   |   |   |   |--- bmi <= -0.30
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- bmi >  -0.30
+|   |   |   |   |   |--- class: 1
+|   |--- bmi >  0.15
+|   |   |--- age <= 0.55
+|   |   |   |--- hdl_cholesterol <= -0.19
+|   |   |   |   |--- fiber_g <= -0.10
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- fiber_g >  -0.10
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- hdl_cholesterol >  -0.19
+|   |   |   |   |--- systolic_bp <= 0.38
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- systolic_bp >  0.38
+|   |   |   |   |   |--- class: 1
+|   |   |--- age >  0.55
+|   |   |   |--- systolic_bp <= -0.44
+|   |   |   |   |--- class: 1
+|   |   |   |--- systolic_bp >  -0.44
+|   |   |   |   |--- class: 1

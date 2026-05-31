@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>NHANES 心代谢风险数据挖掘报告</title>
+  <style>
+    body { margin: 32px; font-family: Arial, 'Microsoft YaHei', sans-serif; color: #1f2937; line-height: 1.6; }
+    h1, h2 { color: #0f172a; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 20px 0; }
+    .metric { border: 1px solid #d1d5db; border-radius: 6px; padding: 12px; background: #f9fafb; }
+    .metric strong { display: block; font-size: 22px; color: #111827; }
+    table { border-collapse: collapse; width: 100%; font-size: 13px; margin-bottom: 20px; }
+    th, td { border: 1px solid #d1d5db; padding: 6px 8px; text-align: left; }
+    th { background: #e5e7eb; }
+    img { max-width: 100%; border: 1px solid #e5e7eb; border-radius: 6px; margin: 10px 0 24px; }
+  </style>
+</head>
+<body>
+  <h1>NHANES 心代谢风险分层、关联规则与分类预测报告</h1>
+  <p>本报告由项目流水线自动生成，覆盖数据预处理、数据仓库、聚合分析、Apriori 关联规则和决策树分类。</p>
+  <div class="grid">
+    <div class="metric">成人样本<strong>6,113</strong></div>
+    <div class="metric">高风险比例<strong>52.6%</strong></div>
+    <div class="metric">分类准确率<strong>0.850</strong></div>
+    <div class="metric">分类 F1<strong>0.855</strong></div>
+  </div>
+  <h2>聚合分析</h2>
+  <h3>按年龄分组</h3>
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>age_group</th>
+      <th>participants</th>
+      <th>mean_age</th>
+      <th>mean_bmi</th>
+      <th>mean_systolic_bp</th>
+      <th>mean_hba1c</th>
+      <th>mean_total_cholesterol</th>
+      <th>high_risk_rate</th>
+      <th>diabetes_rate</th>
+      <th>hypertension_rate</th>
+      <th>high_cholesterol_rate</th>
+      <th>obesity_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>18-29</td>
+      <td>1300</td>
+      <td>22.735</td>
+      <td>27.203</td>
+      <td>113.604</td>
+      <td>5.245</td>
+      <td>169.888</td>
+      <td>0.218</td>
+      <td>0.026</td>
+      <td>0.156</td>
+      <td>0.435</td>
+      <td>0.262</td>
+    </tr>
+    <tr>
+      <td>30-44</td>
+      <td>1547</td>
+      <td>37.085</td>
+      <td>29.453</td>
+      <td>117.259</td>
+      <td>5.508</td>
+      <td>190.595</td>
+      <td>0.390</td>
+      <td>0.090</td>
+      <td>0.340</td>
+      <td>0.570</td>
+      <td>0.391</td>
+    </tr>
+    <tr>
+      <td>45-59</td>
+      <td>1425</td>
+      <td>51.821</td>
+      <td>29.667</td>
+      <td>123.152</td>
+      <td>5.902</td>
+      <td>198.085</td>
+      <td>0.544</td>
+      <td>0.199</td>
+      <td>0.575</td>
+      <td>0.702</td>
+      <td>0.394</td>
+    </tr>
+    <tr>
+      <td>60+</td>
+      <td>1841</td>
+      <td>70.014</td>
+      <td>28.898</td>
+      <td>131.800</td>
+      <td>6.043</td>
+      <td>186.876</td>
+      <td>0.845</td>
+      <td>0.326</td>
+      <td>0.787</td>
+      <td>0.746</td>
+      <td>0.351</td>
+    </tr>
+  </tbody>
+</table>
+  <img src="aggregation_risk_by_age.png" alt="Risk by age">
+  <img src="aggregation_disease_rates_by_age.png" alt="Disease rates by age">
+  <h3>按 BMI 分组</h3>
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>bmi_group</th>
+      <th>participants</th>
+      <th>mean_age</th>
+      <th>mean_bmi</th>
+      <th>mean_systolic_bp</th>
+      <th>mean_hba1c</th>
+      <th>mean_total_cholesterol</th>
+      <th>high_risk_rate</th>
+      <th>diabetes_rate</th>
+      <th>hypertension_rate</th>
+      <th>high_cholesterol_rate</th>
+      <th>obesity_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Normal</td>
+      <td>1761</td>
+      <td>44.030</td>
+      <td>22.379</td>
+      <td>119.267</td>
+      <td>5.438</td>
+      <td>181.539</td>
+      <td>0.233</td>
+      <td>0.085</td>
+      <td>0.339</td>
+      <td>0.470</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>Obese</td>
+      <td>2120</td>
+      <td>48.531</td>
+      <td>36.288</td>
+      <td>125.022</td>
+      <td>5.953</td>
+      <td>190.058</td>
+      <td>0.849</td>
+      <td>0.256</td>
+      <td>0.628</td>
+      <td>0.756</td>
+      <td>1.000</td>
+    </tr>
+    <tr>
+      <td>Overweight</td>
+      <td>2110</td>
+      <td>49.413</td>
+      <td>27.457</td>
+      <td>122.102</td>
+      <td>5.699</td>
+      <td>188.452</td>
+      <td>0.464</td>
+      <td>0.172</td>
+      <td>0.487</td>
+      <td>0.636</td>
+      <td>0.015</td>
+    </tr>
+    <tr>
+      <td>Underweight</td>
+      <td>122</td>
+      <td>40.836</td>
+      <td>17.461</td>
+      <td>118.923</td>
+      <td>5.353</td>
+      <td>178.426</td>
+      <td>0.238</td>
+      <td>0.033</td>
+      <td>0.328</td>
+      <td>0.402</td>
+      <td>0.000</td>
+    </tr>
+  </tbody>
+</table>
+  <img src="aggregation_risk_by_bmi.png" alt="Risk by BMI">
+  <h2>关联规则</h2>
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>antecedent</th>
+      <th>consequent</th>
+      <th>support</th>
+      <th>confidence</th>
+      <th>lift</th>
+      <th>antecedent_support</th>
+      <th>consequent_support</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Age=60+ + BMI=Obese</td>
+      <td>Risk=High</td>
+      <td>0.103</td>
+      <td>0.989</td>
+      <td>1.879</td>
+      <td>0.104</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>BMI=Obese + Diabetes=Yes</td>
+      <td>Risk=High</td>
+      <td>0.087</td>
+      <td>0.983</td>
+      <td>1.868</td>
+      <td>0.089</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>Rx=Antihypertensive + Rx=Statin</td>
+      <td>Hypertension=Yes</td>
+      <td>0.125</td>
+      <td>0.910</td>
+      <td>1.855</td>
+      <td>0.138</td>
+      <td>0.490</td>
+    </tr>
+    <tr>
+      <td>Age=60+ + Diabetes=Yes</td>
+      <td>Risk=High</td>
+      <td>0.096</td>
+      <td>0.972</td>
+      <td>1.846</td>
+      <td>0.098</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>BMI=Obese + Diabetes=Prediabetes</td>
+      <td>Risk=High</td>
+      <td>0.082</td>
+      <td>0.967</td>
+      <td>1.838</td>
+      <td>0.085</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>BMI=Obese + Hypertension=Yes</td>
+      <td>Risk=High</td>
+      <td>0.210</td>
+      <td>0.963</td>
+      <td>1.830</td>
+      <td>0.218</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>Diabetes=Yes + Smoking=Ever</td>
+      <td>Risk=High</td>
+      <td>0.080</td>
+      <td>0.961</td>
+      <td>1.825</td>
+      <td>0.084</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>Diabetes=Yes + Hypertension=Yes</td>
+      <td>Risk=High</td>
+      <td>0.123</td>
+      <td>0.959</td>
+      <td>1.822</td>
+      <td>0.128</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>Activity=SedentaryHigh + BMI=Obese</td>
+      <td>Risk=High</td>
+      <td>0.087</td>
+      <td>0.959</td>
+      <td>1.821</td>
+      <td>0.091</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>Diabetes=Yes + Diet=FiberLow</td>
+      <td>Risk=High</td>
+      <td>0.091</td>
+      <td>0.954</td>
+      <td>1.811</td>
+      <td>0.095</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>BMI=Obese + Smoking=Ever</td>
+      <td>Risk=High</td>
+      <td>0.141</td>
+      <td>0.952</td>
+      <td>1.809</td>
+      <td>0.148</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>Cholesterol=High + Diabetes=Yes</td>
+      <td>Risk=High</td>
+      <td>0.135</td>
+      <td>0.944</td>
+      <td>1.793</td>
+      <td>0.143</td>
+      <td>0.526</td>
+    </tr>
+  </tbody>
+</table>
+  <h2>分类结果</h2>
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>samples</th>
+      <th>train_samples</th>
+      <th>test_samples</th>
+      <th>positive_rate</th>
+      <th>accuracy</th>
+      <th>precision</th>
+      <th>recall</th>
+      <th>f1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6113.000</td>
+      <td>4279.000</td>
+      <td>1834.000</td>
+      <td>0.526</td>
+      <td>0.850</td>
+      <td>0.868</td>
+      <td>0.842</td>
+      <td>0.855</td>
+    </tr>
+  </tbody>
+</table>
+  <img src="classification_confusion_matrix.png" alt="Confusion matrix">
+  <h3>特征重要性</h3>
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>feature</th>
+      <th>importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>hba1c</td>
+      <td>0.315</td>
+    </tr>
+    <tr>
+      <td>bmi</td>
+      <td>0.254</td>
+    </tr>
+    <tr>
+      <td>age_group_60+</td>
+      <td>0.127</td>
+    </tr>
+    <tr>
+      <td>ever_smoker</td>
+      <td>0.101</td>
+    </tr>
+    <tr>
+      <td>sedentary_minutes</td>
+      <td>0.060</td>
+    </tr>
+    <tr>
+      <td>age</td>
+      <td>0.055</td>
+    </tr>
+    <tr>
+      <td>fiber_g</td>
+      <td>0.037</td>
+    </tr>
+    <tr>
+      <td>systolic_bp</td>
+      <td>0.024</td>
+    </tr>
+    <tr>
+      <td>sodium_mg</td>
+      <td>0.010</td>
+    </tr>
+    <tr>
+      <td>triglycerides</td>
+      <td>0.009</td>
+    </tr>
+    <tr>
+      <td>hdl_cholesterol</td>
+      <td>0.007</td>
+    </tr>
+    <tr>
+      <td>income_poverty_ratio</td>
+      <td>0.001</td>
+    </tr>
+  </tbody>
+</table>
+  <img src="classification_feature_importance.png" alt="Feature importance">
+</body>
+</html>

@@ -1,0 +1,1526 @@
+﻿items,item_count,support
+Diet=SodiumHigh,1,0.7724521511532799
+Alcohol=Regular,1,0.7331915589726812
+Rx=Antihypertensive,1,0.7186324227057092
+Diet=SugarHigh,1,0.6739734991002782
+Diabetes=No,1,0.6358580075249468
+Cholesterol=High,1,0.6252249304760347
+Smoking=Never,1,0.5781122198593162
+Diet=FiberLow,1,0.53770652707345
+Risk=High,1,0.5264191068215279
+Sex=Female,1,0.5229838050057255
+Hypertension=No,1,0.5097333551447735
+Hypertension=Yes,1,0.4902666448552266
+Sex=Male,1,0.4770161949942745
+Risk=NotHigh,1,0.47358089317847213
+Smoking=Ever,1,0.4218877801406838
+Activity=Active,1,0.37722885653525273
+Cholesterol=Normal,1,0.37477506952396533
+BMI=Obese,1,0.34680189759528873
+BMI=Overweight,1,0.34516603958776376
+Age=60+,1,0.3011614591853427
+BMI=Normal,1,0.28807459512514316
+Age=30-44,1,0.2530672337641093
+Age=45-59,1,0.23310976607230494
+Activity=SedentaryHigh,1,0.2277114346474726
+Age=18-29,1,0.21266154097824308
+Diabetes=Prediabetes,1,0.1910682152789138
+Rx=Statin,1,0.18583346965483397
+Diabetes=Yes,1,0.17307377719613937
+Alcohol=Regular + Diet=SodiumHigh,2,0.5823654506788811
+Diet=SodiumHigh + Diet=SugarHigh,2,0.5699329298216915
+Diet=SodiumHigh + Rx=Antihypertensive,2,0.5563553083592344
+Alcohol=Regular + Rx=Antihypertensive,2,0.5220022902012106
+Alcohol=Regular + Diet=SugarHigh,2,0.5059708817274661
+Diabetes=No + Diet=SodiumHigh,2,0.5005725503026337
+Alcohol=Regular + Diabetes=No,2,0.48159659741534433
+Diet=SugarHigh + Rx=Antihypertensive,2,0.4770161949942745
+Cholesterol=High + Diet=SodiumHigh,2,0.4742352363814821
+Alcohol=Regular + Cholesterol=High,2,0.45411418288892524
+Diabetes=No + Rx=Antihypertensive,2,0.44855226566334044
+Diabetes=No + Diet=SugarHigh,2,0.44773433665957796
+Cholesterol=High + Rx=Antihypertensive,2,0.4434811058400131
+Diet=SodiumHigh + Smoking=Never,2,0.4428267626370031
+Cholesterol=High + Risk=High,2,0.4351382300016359
+Diabetes=No + Risk=NotHigh,2,0.42221495174218876
+Rx=Antihypertensive + Smoking=Never,2,0.4212334369376738
+Cholesterol=High + Diet=SugarHigh,2,0.41681662031735645
+Diet=SodiumHigh + Risk=High,2,0.414690004907574
+Diet=SodiumHigh + Hypertension=No,2,0.4063471290691968
+Diet=SodiumHigh + Sex=Male,2,0.40422051365941436
+Diabetes=No + Hypertension=No,2,0.3966955668247996
+Alcohol=Regular + Diet=FiberLow,2,0.3960412236217896
+Alcohol=Regular + Sex=Male,2,0.39424177981351216
+Alcohol=Regular + Risk=High,2,0.3885162767871749
+Hypertension=Yes + Risk=High,2,0.3881891051856699
+Diabetes=No + Smoking=Never,2,0.3876983477834124
+Diet=FiberLow + Rx=Antihypertensive,2,0.38720759038115493
+Diet=SugarHigh + Smoking=Never,2,0.38426304596761
+Hypertension=Yes + Rx=Antihypertensive,2,0.3765745133322428
+Risk=High + Rx=Antihypertensive,2,0.3765745133322428
+Diet=FiberLow + Diet=SodiumHigh,2,0.37461148372321285
+Alcohol=Regular + Hypertension=No,2,0.3729756257156879
+Alcohol=Regular + Smoking=Ever,2,0.37150335350891545
+Hypertension=No + Risk=NotHigh,2,0.37150335350891545
+Diet=SodiumHigh + Sex=Female,2,0.36823163749386556
+Diet=SodiumHigh + Hypertension=Yes,2,0.3661050220840831
+Rx=Antihypertensive + Sex=Male,2,0.36545067888107313
+Alcohol=Regular + Smoking=Never,2,0.36168820546376573
+Alcohol=Regular + Hypertension=Yes,2,0.3602159332569933
+Diet=SugarHigh + Hypertension=No,2,0.3595615900539833
+Cholesterol=High + Hypertension=Yes,2,0.35890724685097336
+Diet=SodiumHigh + Risk=NotHigh,2,0.35776214624570585
+Rx=Antihypertensive + Sex=Female,2,0.353181743824636
+Diet=SugarHigh + Risk=High,2,0.3450024537870113
+Alcohol=Regular + Risk=NotHigh,2,0.3446752821855063
+Sex=Female + Smoking=Never,2,0.34303942417798133
+Diabetes=No + Diet=FiberLow,2,0.34287583837722885
+Hypertension=No + Rx=Antihypertensive,2,0.34205790937346636
+Risk=NotHigh + Rx=Antihypertensive,2,0.34205790937346636
+Cholesterol=High + Smoking=Never,2,0.3415671519712089
+Diet=FiberLow + Diet=SugarHigh,2,0.34123998036970393
+Diet=SugarHigh + Sex=Male,2,0.3400948797644364
+Alcohol=Regular + Sex=Female,2,0.33894977915916896
+Cholesterol=High + Diabetes=No,2,0.3387861933584165
+Risk=NotHigh + Smoking=Never,2,0.3348601341403566
+Diet=SugarHigh + Sex=Female,2,0.3338786193358417
+Diabetes=No + Sex=Female,2,0.3320791755275642
+Cholesterol=High + Diet=FiberLow,2,0.3307704891215443
+Diet=SodiumHigh + Smoking=Ever,2,0.32962538851627676
+Cholesterol=High + Sex=Female,2,0.3291346311140193
+Diet=SugarHigh + Risk=NotHigh,2,0.3289710453132668
+Diet=FiberLow + Risk=High,2,0.3263536725012269
+Hypertension=No + Smoking=Never,2,0.3206281694748896
+Diet=SugarHigh + Hypertension=Yes,2,0.3144119090462948
+Diet=FiberLow + Sex=Female,2,0.3081956486177
+Diabetes=No + Sex=Male,2,0.30377883199738265
+Activity=Active + Diet=SodiumHigh,2,0.3016522165876002
+Cholesterol=Normal + Diet=SodiumHigh,2,0.2982169147717978
+Rx=Antihypertensive + Smoking=Ever,2,0.29739898576803536
+Cholesterol=Normal + Diabetes=No,2,0.29707181416653033
+Diet=FiberLow + Smoking=Never,2,0.29674464256502536
+Cholesterol=High + Sex=Male,2,0.29609029936201536
+BMI=Obese + Risk=High,2,0.29445444135449045
+Activity=Active + Alcohol=Regular,2,0.2903647963356781
+Diet=SugarHigh + Smoking=Ever,2,0.2897104531326681
+Risk=High + Sex=Female,2,0.28692949451987565
+Cholesterol=High + Smoking=Ever,2,0.28365777850482576
+Cholesterol=Normal + Risk=NotHigh,2,0.2834941927040733
+Risk=High + Smoking=Ever,2,0.2831670211025683
+Alcohol=Regular + Cholesterol=Normal,2,0.27907737608375593
+Hypertension=No + Sex=Female,2,0.277768689677736
+Cholesterol=Normal + Rx=Antihypertensive,2,0.27515131686569605
+Activity=Active + Rx=Antihypertensive,2,0.2748241452641911
+Diet=FiberLow + Hypertension=Yes,2,0.2715524292491412
+BMI=Overweight + Diet=SodiumHigh,2,0.26877147063634876
+Cholesterol=High + Hypertension=No,2,0.26631768362506136
+Alcohol=Regular + BMI=Overweight,2,0.2661540978243089
+Diet=FiberLow + Hypertension=No,2,0.2661540978243089
+BMI=Obese + Diet=SodiumHigh,2,0.2645182398167839
+BMI=Obese + Cholesterol=High,2,0.262228038606249
+Activity=Active + Diet=SugarHigh,2,0.261573695403239
+Hypertension=Yes + Smoking=Never,2,0.2574840503844266
+Cholesterol=Normal + Diet=SugarHigh,2,0.25715687878292165
+Age=60+ + Risk=High,2,0.2545395059708817
+Activity=Active + Diabetes=No,2,0.2524128905610993
+BMI=Obese + Rx=Antihypertensive,2,0.2506134467528219
+BMI=Overweight + Rx=Antihypertensive,2,0.25028627515131685
+Diabetes=No + Smoking=Ever,2,0.24815965974153442
+Alcohol=Regular + BMI=Obese,2,0.24701455913626696
+Hypertension=Yes + Sex=Female,2,0.24521511532798954
+Hypertension=Yes + Sex=Male,2,0.24505152952723702
+Cholesterol=Normal + Hypertension=No,2,0.24341567151971208
+Risk=High + Smoking=Never,2,0.2432520857189596
+Sex=Male + Smoking=Ever,2,0.24194339931293965
+Diet=FiberLow + Smoking=Ever,2,0.24096188450842468
+Risk=High + Sex=Male,2,0.23948961230165222
+Diabetes=No + Hypertension=Yes,2,0.23916244070014722
+Risk=NotHigh + Sex=Male,2,0.23752658269262228
+Age=60+ + Hypertension=Yes,2,0.2368722394896123
+Cholesterol=Normal + Smoking=Never,2,0.2365450678881073
+Risk=NotHigh + Sex=Female,2,0.23605431048584982
+BMI=Overweight + Diet=SugarHigh,2,0.23589072468509734
+Sex=Male + Smoking=Never,2,0.23507279568133485
+Hypertension=Yes + Smoking=Ever,2,0.23278259447079994
+Hypertension=No + Sex=Male,2,0.23196466546703745
+BMI=Obese + Diet=SugarHigh,2,0.23098315066252248
+Diet=FiberLow + Sex=Male,2,0.22951087845575005
+Activity=Active + Cholesterol=High,2,0.22509406183543268
+Age=60+ + Cholesterol=High,2,0.2247668902339277
+BMI=Normal + Diabetes=No,2,0.22362178962866022
+Age=60+ + Rx=Antihypertensive,2,0.22329461802715525
+BMI=Normal + Diet=SodiumHigh,2,0.22329461802715525
+BMI=Overweight + Diabetes=No,2,0.22231310322264028
+BMI=Normal + Risk=NotHigh,2,0.22084083101586782
+BMI=Overweight + Cholesterol=High,2,0.21969573041060037
+BMI=Obese + Hypertension=Yes,2,0.2178962866023229
+Age=60+ + Diet=SodiumHigh,2,0.215933256993293
+Diabetes=No + Risk=High,2,0.21364305578275805
+Diet=FiberLow + Risk=NotHigh,2,0.21135285457222314
+Activity=Active + Sex=Male,2,0.21086209716996565
+Age=60+ + Alcohol=Regular,2,0.20791755275642074
+Alcohol=Regular + BMI=Normal,2,0.20759038115491577
+Cholesterol=Normal + Diet=FiberLow,2,0.20693603795190577
+Activity=Active + Smoking=Never,2,0.2059545231473908
+Activity=Active + Hypertension=No,2,0.20464583674137085
+Age=30-44 + Diet=SodiumHigh,2,0.20382790773760837
+BMI=Normal + Rx=Antihypertensive,2,0.20366432193685588
+BMI=Obese + Sex=Female,2,0.20219204973008342
+Activity=Active + Risk=NotHigh,2,0.1995746769180435
+BMI=Obese + Smoking=Never,2,0.19875674791428105
+Age=30-44 + Alcohol=Regular,2,0.19744806150826108
+Age=30-44 + Diabetes=No,2,0.1967937183052511
+Age=18-29 + Diabetes=No,2,0.19515786029772617
+Cholesterol=Normal + Sex=Female,2,0.1938491738917062
+BMI=Normal + Diet=SugarHigh,2,0.1936855880909537
+BMI=Overweight + Diet=FiberLow,2,0.19319483068869622
+Activity=Active + Diet=FiberLow,2,0.19221331588418125
+BMI=Overweight + Smoking=Never,2,0.19123180107966628
+BMI=Normal + Hypertension=No,2,0.19041387207590382
+Cholesterol=High + Risk=NotHigh,2,0.19008670047439882
+BMI=Overweight + Sex=Male,2,0.18975952887289382
+BMI=Obese + Diet=FiberLow,2,0.18943235727138885
+Hypertension=No + Smoking=Ever,2,0.18910518566988385
+BMI=Overweight + Risk=NotHigh,2,0.185179126451824
+Age=60+ + Diet=SugarHigh,2,0.18354326844429902
+Age=45-59 + Alcohol=Regular,2,0.18223458203827908
+Age=30-44 + Rx=Antihypertensive,2,0.1814166530345166
+Cholesterol=Normal + Sex=Male,2,0.1809258956322591
+Age=30-44 + Diet=SugarHigh,2,0.18076230983150662
+Sex=Female + Smoking=Ever,2,0.17994438082774414
+Age=18-29 + Hypertension=No,2,0.17945362342548668
+Age=45-59 + Diet=SodiumHigh,2,0.17912645182398168
+Activity=SedentaryHigh + Diet=SodiumHigh,2,0.1789628660232292
+Activity=Active + Risk=High,2,0.17765417961720922
+BMI=Normal + Smoking=Never,2,0.17716342221495174
+BMI=Overweight + Hypertension=No,2,0.17699983641419925
+Age=18-29 + Diet=SodiumHigh,2,0.17356453459839685
+BMI=Obese + Diabetes=No,2,0.17291019139538688
+Activity=Active + Hypertension=Yes,2,0.17258301979388188
+Activity=Active + Smoking=Ever,2,0.17127433338786194
+Activity=SedentaryHigh + Alcohol=Regular,2,0.16865696057582202
+BMI=Overweight + Hypertension=Yes,2,0.16816620317356454
+Cholesterol=High + Rx=Statin,2,0.16767544577130705
+Age=30-44 + Hypertension=No,2,0.16702110256829708
+Activity=Active + Sex=Female,2,0.16636675936528708
+Age=18-29 + Risk=NotHigh,2,0.16636675936528708
+Age=60+ + Diet=FiberLow,2,0.1657124161622771
+Age=45-59 + Cholesterol=High,2,0.16374938655324717
+Risk=High + Rx=Statin,2,0.1630950433502372
+Age=18-29 + Rx=Antihypertensive,2,0.16145918534271225
+BMI=Overweight + Risk=High,2,0.1599869131359398
+Age=60+ + Sex=Female,2,0.15818746932766237
+Diabetes=Yes + Risk=High,2,0.15802388352690985
+Activity=SedentaryHigh + Rx=Antihypertensive,2,0.1572059545231474
+Activity=SedentaryHigh + Risk=High,2,0.15606085391787994
+Age=45-59 + Diet=SugarHigh,2,0.15573368231637494
+BMI=Overweight + Sex=Female,2,0.15540651071486994
+Diabetes=Prediabetes + Risk=High,2,0.15475216751185997
+Age=30-44 + Risk=NotHigh,2,0.15426141010960248
+Age=18-29 + Diet=SugarHigh,2,0.1539342385080975
+BMI=Overweight + Smoking=Ever,2,0.1539342385080975
+BMI=Normal + Sex=Female,2,0.15344348110584002
+Activity=SedentaryHigh + Diet=SugarHigh,2,0.15278913790283002
+BMI=Normal + Cholesterol=Normal,2,0.15278913790283002
+Age=30-44 + Smoking=Never,2,0.15262555210207754
+Age=45-59 + Rx=Antihypertensive,2,0.15246196630132505
+Activity=Active + Cholesterol=Normal,2,0.15213479469982005
+Age=18-29 + Smoking=Never,2,0.1509896940945526
+Age=60+ + Smoking=Ever,2,0.1508261082938001
+Age=60+ + Smoking=Never,2,0.15033535089154262
+Hypertension=Yes + Rx=Statin,2,0.14902666448552265
+BMI=Obese + Smoking=Ever,2,0.14804514968100768
+Activity=SedentaryHigh + Cholesterol=High,2,0.14608212007197774
+Age=18-29 + Alcohol=Regular,2,0.14559136266972028
+Diabetes=Prediabetes + Diet=SodiumHigh,2,0.1451006052674628
+BMI=Obese + Sex=Male,2,0.1446098478652053
+Age=30-44 + Cholesterol=High,2,0.1442826762637003
+Cholesterol=High + Diabetes=Prediabetes,2,0.14330116145918534
+Cholesterol=High + Diabetes=Yes,2,0.14313757565843285
+Age=60+ + Sex=Male,2,0.14297398985768037
+BMI=Normal + Diet=FiberLow,2,0.14297398985768037
+Activity=SedentaryHigh + Diabetes=No,2,0.1411745460494029
+Diabetes=Prediabetes + Rx=Antihypertensive,2,0.1408473744478979
+Risk=NotHigh + Smoking=Ever,2,0.13872075903811548
+Cholesterol=Normal + Smoking=Ever,2,0.138230001635858
+Hypertension=No + Risk=High,2,0.138230001635858
+Rx=Antihypertensive + Rx=Statin,2,0.13757565843284802
+BMI=Normal + Cholesterol=High,2,0.1352854572223131
+BMI=Normal + Sex=Male,2,0.1346311140193031
+Age=30-44 + Sex=Female,2,0.13430394241779814
+Age=45-59 + Hypertension=Yes,2,0.13414035661704565
+Activity=Active + BMI=Obese,2,0.13348601341403565
+Activity=Active + BMI=Overweight,2,0.13315884181253068
+Activity=SedentaryHigh + Smoking=Never,2,0.13315884181253068
+Age=60+ + Rx=Statin,2,0.13299525601177817
+Alcohol=Regular + Diabetes=Prediabetes,2,0.13283167021102568
+Alcohol=Regular + Rx=Statin,2,0.1323409128087682
+Diet=SodiumHigh + Rx=Statin,2,0.13168656960575822
+Age=30-44 + Diet=FiberLow,2,0.13152298380500574
+Cholesterol=Normal + Hypertension=Yes,2,0.13135939800425322
+Age=45-59 + Diabetes=No,2,0.13021429739898577
+Diabetes=Prediabetes + Diet=SugarHigh,2,0.1292327825944708
+Diabetes=Yes + Rx=Antihypertensive,2,0.1292327825944708
+BMI=Obese + Hypertension=No,2,0.1289056109929658
+Diabetes=Yes + Hypertension=Yes,2,0.12808768198920334
+Age=45-59 + Risk=High,2,0.12677899558318337
+Diabetes=Yes + Diet=SodiumHigh,2,0.12677899558318337
+Activity=SedentaryHigh + Diet=FiberLow,2,0.12661540978243088
+BMI=Overweight + Cholesterol=Normal,2,0.12547030917716342
+Age=18-29 + Diet=FiberLow,2,0.12448879437264845
+Age=45-59 + Smoking=Never,2,0.12416162277114347
+Diabetes=Prediabetes + Hypertension=Yes,2,0.123016522165876
+Activity=SedentaryHigh + Sex=Female,2,0.12121707835759855
+Age=18-29 + Cholesterol=Normal,2,0.1202355635530836
+Age=45-59 + Sex=Female,2,0.1202355635530836
+Age=30-44 + Sex=Male,2,0.11876329134631114
+Alcohol=Regular + Diabetes=Yes,2,0.11876329134631114
+Activity=SedentaryHigh + Hypertension=Yes,2,0.11794536234254867
+Age=60+ + BMI=Overweight,2,0.11794536234254867
+Age=45-59 + Diet=FiberLow,2,0.11598233273351873
+Age=60+ + Diabetes=No,2,0.11369213152298381
+Age=45-59 + Sex=Male,2,0.11287420251922133
+BMI=Normal + Smoking=Ever,2,0.1109111729101914
+Diet=SugarHigh + Rx=Statin,2,0.11042041550793391
+Age=18-29 + Sex=Female,2,0.11025682970718141
+Activity=SedentaryHigh + Hypertension=No,2,0.10976607230492394
+Age=45-59 + Smoking=Ever,2,0.10894814330116145
+Age=30-44 + Cholesterol=Normal,2,0.10878455750040897
+Activity=Active + Age=30-44,2,0.107803042695894
+Activity=SedentaryHigh + Sex=Male,2,0.10649435628987404
+Age=45-59 + Risk=NotHigh,2,0.10633077048912154
+Diabetes=Prediabetes + Sex=Female,2,0.1045313266808441
+Diet=FiberLow + Rx=Statin,2,0.10420415507933911
+Age=60+ + BMI=Obese,2,0.10404056927858663
+Activity=Active + BMI=Normal,2,0.10305905447407165
+Age=18-29 + Sex=Male,2,0.10240471127106167
+Hypertension=Yes + Risk=NotHigh,2,0.10207753966955668
+Activity=Active + Age=18-29,2,0.10125961066579421
+Diabetes=Prediabetes + Smoking=Never,2,0.10093243906428923
+Age=30-44 + Smoking=Ever,2,0.10044168166203174
+Diabetes=Prediabetes + Diet=FiberLow,2,0.09978733845902175
+Age=45-59 + Hypertension=No,2,0.09896940945525928
+Age=30-44 + Risk=High,2,0.09880582365450678
+Age=60+ + Diabetes=Yes,2,0.09831506625224931
+Age=30-44 + BMI=Obese,2,0.09766072304923933
+BMI=Normal + Hypertension=Yes,2,0.09766072304923933
+Diabetes=Yes + Diet=SugarHigh,2,0.09700637984622935
+Rx=Statin + Smoking=Ever,2,0.09520693603795191
+Diabetes=Yes + Diet=FiberLow,2,0.09504335023719941
+Activity=SedentaryHigh + Smoking=Ever,2,0.09455259283494193
+Rx=Statin + Sex=Male,2,0.09438900703418943
+Age=18-29 + Cholesterol=High,2,0.0924259774251595
+Rx=Statin + Sex=Female,2,0.09144446262064453
+Cholesterol=Normal + Risk=High,2,0.09128087681989204
+Activity=SedentaryHigh + BMI=Obese,2,0.09095370521838704
+Age=45-59 + BMI=Obese,2,0.09062653361688205
+Rx=Statin + Smoking=Never,2,0.09062653361688205
+Diabetes=Prediabetes + Smoking=Ever,2,0.09013577621462457
+Age=18-29 + BMI=Normal,2,0.0894814330116146
+Diabetes=Yes + Smoking=Never,2,0.0894814330116146
+Age=60+ + Diabetes=Prediabetes,2,0.0891542614101096
+BMI=Obese + Diabetes=Yes,2,0.08866350400785211
+Activity=Active + Age=45-59,2,0.08670047439882218
+Diabetes=Yes + Sex=Male,2,0.08670047439882218
+Diabetes=Prediabetes + Sex=Male,2,0.08653688859806968
+Diabetes=Yes + Sex=Female,2,0.0863733027973172
+Age=30-44 + Hypertension=Yes,2,0.0860461311958122
+Age=30-44 + BMI=Overweight,2,0.08571895959430721
+BMI=Obese + Diabetes=Prediabetes,2,0.08522820219204973
+BMI=Obese + Cholesterol=Normal,2,0.08457385898903975
+Diabetes=Yes + Smoking=Ever,2,0.08359234418452478
+Activity=SedentaryHigh + Cholesterol=Normal,2,0.08162931457549484
+Age=45-59 + BMI=Overweight,2,0.08162931457549484
+Activity=Active + Age=60+,2,0.08146572877474235
+Alcohol=Regular + Diet=SodiumHigh + Diet=SugarHigh,3,0.43595615900539836
+Alcohol=Regular + Diet=SodiumHigh + Rx=Antihypertensive,3,0.4171437919188614
+Diet=SodiumHigh + Diet=SugarHigh + Rx=Antihypertensive,3,0.4068378864714543
+Alcohol=Regular + Diabetes=No + Diet=SodiumHigh,3,0.3875347619826599
+Diabetes=No + Diet=SodiumHigh + Diet=SugarHigh,3,0.3816456731555701
+Alcohol=Regular + Cholesterol=High + Diet=SodiumHigh,3,0.35579911663667596
+Alcohol=Regular + Diet=SugarHigh + Rx=Antihypertensive,3,0.35579911663667596
+Diabetes=No + Diet=SodiumHigh + Rx=Antihypertensive,3,0.35530835923441845
+Cholesterol=High + Diet=SodiumHigh + Diet=SugarHigh,3,0.3456567969900213
+Alcohol=Regular + Diabetes=No + Diet=SugarHigh,3,0.34516603958776376
+Cholesterol=High + Diet=SodiumHigh + Risk=High,3,0.338622607557664
+Alcohol=Regular + Diet=SodiumHigh + Sex=Male,3,0.33731392115164405
+Cholesterol=High + Diet=SodiumHigh + Rx=Antihypertensive,3,0.3353508915426141
+Diabetes=No + Hypertension=No + Risk=NotHigh,3,0.33404220513659416
+Alcohol=Regular + Diabetes=No + Rx=Antihypertensive,3,0.33355144773433665
+Diabetes=No + Diet=SodiumHigh + Risk=NotHigh,3,0.3252085718959594
+Diet=SodiumHigh + Diet=SugarHigh + Smoking=Never,3,0.3229183706854245
+Diabetes=No + Diet=SodiumHigh + Hypertension=No,3,0.32160968427940456
+Diet=SodiumHigh + Rx=Antihypertensive + Smoking=Never,3,0.3204645836741371
+Alcohol=Regular + Cholesterol=High + Rx=Antihypertensive,3,0.31948306886962213
+Cholesterol=High + Hypertension=Yes + Risk=High,3,0.31948306886962213
+Alcohol=Regular + Cholesterol=High + Risk=High,3,0.31882872566661213
+Alcohol=Regular + Diet=SodiumHigh + Risk=High,3,0.3137575658432848
+Alcohol=Regular + Diabetes=No + Risk=NotHigh,3,0.3127760510387698
+Diabetes=No + Diet=SugarHigh + Rx=Antihypertensive,3,0.31261246523801733
+Cholesterol=High + Risk=High + Rx=Antihypertensive,3,0.31015867822672993
+Alcohol=Regular + Cholesterol=High + Diet=SugarHigh,3,0.3083592344184525
+Diet=SodiumHigh + Diet=SugarHigh + Hypertension=No,3,0.3081956486177
+Diet=SodiumHigh + Rx=Antihypertensive + Sex=Male,3,0.3077048912154425
+Diabetes=No + Risk=NotHigh + Rx=Antihypertensive,3,0.3057418616064126
+Diet=SodiumHigh + Diet=SugarHigh + Sex=Male,3,0.3042695893996401
+Alcohol=Regular + Diet=SodiumHigh + Hypertension=No,3,0.30394241779813513
+Diabetes=No + Diet=SodiumHigh + Smoking=Never,3,0.3034516603958776
+Diet=SodiumHigh + Hypertension=Yes + Risk=High,3,0.30067070178308525
+Alcohol=Regular + Rx=Antihypertensive + Sex=Male,3,0.2996891869785703
+Hypertension=Yes + Risk=High + Rx=Antihypertensive,3,0.2990348437755603
+Diabetes=No + Diet=SugarHigh + Risk=NotHigh,3,0.2983805005725503
+Diet=SodiumHigh + Diet=SugarHigh + Risk=High,3,0.2972353999672828
+Diet=SodiumHigh + Risk=High + Rx=Antihypertensive,3,0.2964174709635204
+Diabetes=No + Risk=NotHigh + Smoking=Never,3,0.2952723703582529
+Alcohol=Regular + Diabetes=No + Hypertension=No,3,0.2947816129559954
+Alcohol=Regular + Diet=SodiumHigh + Smoking=Ever,3,0.29445444135449045
+Diet=SodiumHigh + Hypertension=No + Risk=NotHigh,3,0.292327825944708
+Cholesterol=High + Diet=SugarHigh + Rx=Antihypertensive,3,0.2890561099296581
+Alcohol=Regular + Diet=SodiumHigh + Smoking=Never,3,0.2879110093243906
+Alcohol=Regular + Diet=FiberLow + Diet=SodiumHigh,3,0.2870930803206282
+Cholesterol=High + Diet=SugarHigh + Risk=High,3,0.2870930803206282
+Diabetes=No + Diet=SugarHigh + Hypertension=No,3,0.28447570750858825
+Alcohol=Regular + Hypertension=Yes + Risk=High,3,0.28382136430557825
+Alcohol=Regular + Diet=FiberLow + Rx=Antihypertensive,3,0.2823490920988058
+Alcohol=Regular + Diet=SugarHigh + Sex=Male,3,0.28185833469654836
+Diet=SodiumHigh + Hypertension=Yes + Rx=Antihypertensive,3,0.28136757729429085
+Diabetes=No + Rx=Antihypertensive + Smoking=Never,3,0.2792409618845084
+Alcohol=Regular + Diet=SodiumHigh + Hypertension=Yes,3,0.27842303288074594
+Alcohol=Regular + Risk=High + Rx=Antihypertensive,3,0.277114346474726
+Diet=SugarHigh + Rx=Antihypertensive + Smoking=Never,3,0.2769507606739735
+Cholesterol=High + Hypertension=Yes + Rx=Antihypertensive,3,0.276787174873221
+Alcohol=Regular + Hypertension=Yes + Rx=Antihypertensive,3,0.275478488467201
+Diet=SodiumHigh + Hypertension=No + Rx=Antihypertensive,3,0.27498773106494356
+Diet=FiberLow + Diet=SodiumHigh + Diet=SugarHigh,3,0.2748241452641911
+Diabetes=No + Hypertension=No + Rx=Antihypertensive,3,0.2738426304596761
+Diet=SodiumHigh + Diet=SugarHigh + Risk=NotHigh,3,0.27269752985440865
+Diet=FiberLow + Diet=SodiumHigh + Rx=Antihypertensive,3,0.27040732864387373
+Alcohol=Regular + Diet=SugarHigh + Hypertension=No,3,0.2692622280386062
+Alcohol=Regular + Diet=SodiumHigh + Risk=NotHigh,3,0.2686078848355963
+Alcohol=Regular + Hypertension=No + Risk=NotHigh,3,0.2682807132340913
+Diabetes=No + Diet=SugarHigh + Smoking=Never,3,0.2674627842303288
+Cholesterol=High + Diet=SodiumHigh + Hypertension=Yes,3,0.26582692622280385
+Diet=SodiumHigh + Diet=SugarHigh + Sex=Female,3,0.26566334042205136
+Hypertension=No + Risk=NotHigh + Rx=Antihypertensive,3,0.2645182398167839
+Alcohol=Regular + Diabetes=No + Diet=FiberLow,3,0.26255521020775396
+Cholesterol=High + Diabetes=No + Diet=SodiumHigh,3,0.2623916244070015
+Hypertension=No + Risk=NotHigh + Smoking=Never,3,0.2623916244070015
+Alcohol=Regular + Rx=Antihypertensive + Smoking=Ever,3,0.26190086700474396
+Diet=SodiumHigh + Diet=SugarHigh + Hypertension=Yes,3,0.2617372812039915
+Cholesterol=High + Diet=FiberLow + Risk=High,3,0.26108293800098153
+Diabetes=No + Diet=SodiumHigh + Sex=Male,3,0.26108293800098153
+Alcohol=Regular + Diet=FiberLow + Diet=SugarHigh,3,0.2607557663994765
+Alcohol=Regular + Rx=Antihypertensive + Smoking=Never,3,0.26010142319646656
+Diet=SodiumHigh + Risk=NotHigh + Rx=Antihypertensive,3,0.2599378373957141
+Alcohol=Regular + Diet=SugarHigh + Risk=High,3,0.25961066579420905
+Diet=SugarHigh + Hypertension=No + Risk=NotHigh,3,0.25944707999345656
+Alcohol=Regular + Cholesterol=High + Hypertension=Yes,3,0.2584655651889416
+Alcohol=Regular + Cholesterol=High + Diabetes=No,3,0.2578112219859316
+Alcohol=Regular + Diet=SugarHigh + Smoking=Ever,3,0.2578112219859316
+Diabetes=No + Hypertension=No + Smoking=Never,3,0.2576476361851791
+Diet=SugarHigh + Rx=Antihypertensive + Sex=Male,3,0.2574840503844266
+Cholesterol=Normal + Diabetes=No + Risk=NotHigh,3,0.25715687878292165
+Alcohol=Regular + Diabetes=No + Smoking=Never,3,0.25666612138066414
+Diet=SodiumHigh + Hypertension=No + Smoking=Never,3,0.2558481923769017
+Cholesterol=High + Diet=SodiumHigh + Smoking=Never,3,0.2555210207753967
+Alcohol=Regular + Diabetes=No + Sex=Male,3,0.2512677899558318
+Cholesterol=High + Diet=SodiumHigh + Sex=Male,3,0.25044986095206934
+Diet=SodiumHigh + Risk=NotHigh + Smoking=Never,3,0.25012268935056436
+Alcohol=Regular + Cholesterol=High + Sex=Male,3,0.2486504171437919
+Diet=SodiumHigh + Rx=Antihypertensive + Sex=Female,3,0.2486504171437919
+Alcohol=Regular + Cholesterol=High + Smoking=Ever,3,0.24815965974153442
+Alcohol=Regular + Diet=SugarHigh + Smoking=Never,3,0.24815965974153442
+Diabetes=No + Diet=FiberLow + Diet=SodiumHigh,3,0.24701455913626696
+Diet=SodiumHigh + Diet=SugarHigh + Smoking=Ever,3,0.24701455913626696
+Alcohol=Regular + Hypertension=No + Rx=Antihypertensive,3,0.24652380173400948
+Alcohol=Regular + Diet=SugarHigh + Risk=NotHigh,3,0.246360215933257
+Cholesterol=High + Rx=Antihypertensive + Smoking=Never,3,0.24521511532798954
+Alcohol=Regular + Diet=SodiumHigh + Sex=Female,3,0.24505152952723702
+Alcohol=Regular + Risk=NotHigh + Rx=Antihypertensive,3,0.24488794372648454
+Diet=SugarHigh + Hypertension=Yes + Risk=High,3,0.24488794372648454
+Risk=NotHigh + Rx=Antihypertensive + Smoking=Never,3,0.24456077212497956
+Alcohol=Regular + Risk=High + Smoking=Ever,3,0.24423360052347456
+Diet=SodiumHigh + Sex=Female + Smoking=Never,3,0.24390642892196956
+Diet=SugarHigh + Hypertension=No + Rx=Antihypertensive,3,0.24145264191068216
+Diabetes=No + Diet=FiberLow + Rx=Antihypertensive,3,0.24128905610992965
+BMI=Obese + Cholesterol=High + Risk=High,3,0.24063471290691968
+Diet=FiberLow + Diet=SugarHigh + Rx=Antihypertensive,3,0.2399803697039097
+Diabetes=No + Diet=SodiumHigh + Sex=Female,3,0.23948961230165222
+Activity=Active + Alcohol=Regular + Diet=SodiumHigh,3,0.23916244070014722
+Diet=SugarHigh + Risk=NotHigh + Rx=Antihypertensive,3,0.23867168329788974
+Diet=SugarHigh + Risk=High + Rx=Antihypertensive,3,0.23834451169638476
+Alcohol=Regular + Cholesterol=High + Diet=FiberLow,3,0.23818092589563225
+Cholesterol=Normal + Diabetes=No + Diet=SodiumHigh,3,0.23818092589563225
+Alcohol=Regular + Diet=FiberLow + Risk=High,3,0.23801734009487976
+Rx=Antihypertensive + Sex=Female + Smoking=Never,3,0.23719941109111728
+Alcohol=Regular + Diet=SugarHigh + Hypertension=Yes,3,0.2367086536888598
+Cholesterol=High + Risk=High + Sex=Female,3,0.2367086536888598
+Cholesterol=High + Diabetes=No + Diet=SugarHigh,3,0.23638148208735482
+Diet=SodiumHigh + Rx=Antihypertensive + Smoking=Ever,3,0.23589072468509734
+Diet=SugarHigh + Hypertension=Yes + Rx=Antihypertensive,3,0.23556355308359234
+Diet=FiberLow + Diet=SodiumHigh + Risk=High,3,0.23474562407982988
+Cholesterol=High + Diet=FiberLow + Rx=Antihypertensive,3,0.2342548666775724
+Diet=FiberLow + Risk=High + Rx=Antihypertensive,3,0.23212825126778996
+Cholesterol=High + Risk=High + Smoking=Ever,3,0.23196466546703745
+Diabetes=No + Rx=Antihypertensive + Sex=Male,3,0.23131032226402748
+Diet=FiberLow + Hypertension=Yes + Risk=High,3,0.23131032226402748
+BMI=Obese + Diet=SodiumHigh + Risk=High,3,0.2306559790610175
+Alcohol=Regular + Diabetes=No + Sex=Female,3,0.2303288074595125
+Cholesterol=High + Diabetes=No + Rx=Antihypertensive,3,0.2303288074595125
+Cholesterol=High + Diet=SugarHigh + Hypertension=Yes,3,0.22934729265499754
+Diabetes=No + Diet=FiberLow + Diet=SugarHigh,3,0.22672991984295762
+Alcohol=Regular + Cholesterol=Normal + Diet=SodiumHigh,3,0.22656633404220514
+Diabetes=No + Sex=Female + Smoking=Never,3,0.22591199083919516
+Cholesterol=High + Diet=SugarHigh + Smoking=Never,3,0.22558481923769017
+Diabetes=No + Diet=SugarHigh + Sex=Male,3,0.22542123343693768
+Diet=SugarHigh + Risk=NotHigh + Smoking=Never,3,0.22542123343693768
+Alcohol=Regular + Diabetes=No + Smoking=Ever,3,0.2249304760346802
+Activity=Active + Diet=SodiumHigh + Diet=SugarHigh,3,0.2244397186324227
+Cholesterol=Normal + Diet=SodiumHigh + Diet=SugarHigh,3,0.22427613283167022
+Alcohol=Regular + Diet=SugarHigh + Sex=Female,3,0.2241125470309177
+Alcohol=Regular + Cholesterol=Normal + Diabetes=No,3,0.22378537542941274
+Cholesterol=High + Diet=SodiumHigh + Sex=Female,3,0.22378537542941274
+Cholesterol=High + Diet=FiberLow + Diet=SodiumHigh,3,0.22329461802715525
+Cholesterol=High + Rx=Antihypertensive + Sex=Female,3,0.22264027482414525
+Alcohol=Regular + Rx=Antihypertensive + Sex=Female,3,0.22231310322264028
+Diabetes=No + Diet=SugarHigh + Sex=Female,3,0.22231310322264028
+Alcohol=Regular + Sex=Male + Smoking=Ever,3,0.2221495174218878
+Cholesterol=Normal + Diet=SodiumHigh + Risk=NotHigh,3,0.2221495174218878
+Hypertension=No + Rx=Antihypertensive + Smoking=Never,3,0.2221495174218878
+Diet=SodiumHigh + Risk=High + Smoking=Ever,3,0.22198593162113528
+Activity=Active + Diet=SodiumHigh + Rx=Antihypertensive,3,0.2210044168166203
+Cholesterol=Normal + Diet=SodiumHigh + Rx=Antihypertensive,3,0.2210044168166203
+Cholesterol=High + Rx=Antihypertensive + Sex=Male,3,0.22084083101586782
+Cholesterol=Normal + Hypertension=No + Risk=NotHigh,3,0.22084083101586782
+Diet=SugarHigh + Hypertension=No + Smoking=Never,3,0.22067724521511534
+Diet=SugarHigh + Sex=Female + Smoking=Never,3,0.21969573041060037
+Diet=SugarHigh + Rx=Antihypertensive + Sex=Female,3,0.21953214460984788
+Cholesterol=High + Diet=SodiumHigh + Smoking=Ever,3,0.2187142156060854
+Diabetes=No + Hypertension=No + Sex=Female,3,0.2183870440045804
+Cholesterol=Normal + Diabetes=No + Rx=Antihypertensive,3,0.2182234582038279
+Alcohol=Regular + Risk=NotHigh + Smoking=Never,3,0.21740552920006542
+Diet=FiberLow + Rx=Antihypertensive + Smoking=Never,3,0.21740552920006542
+Diabetes=No + Rx=Antihypertensive + Sex=Female,3,0.21724194339931294
+Alcohol=Regular + BMI=Overweight + Diet=SodiumHigh,3,0.21413381318501554
+Age=60+ + Hypertension=Yes + Risk=High,3,0.2128251267789956
+Diabetes=No + Risk=NotHigh + Sex=Female,3,0.2128251267789956
+Alcohol=Regular + BMI=Obese + Risk=High,3,0.2123343693767381
+Cholesterol=High + Diet=SugarHigh + Sex=Male,3,0.2116800261737281
+BMI=Obese + Risk=High + Rx=Antihypertensive,3,0.21135285457222314
+Cholesterol=Normal + Diabetes=No + Diet=SugarHigh,3,0.21135285457222314
+Cholesterol=Normal + Diabetes=No + Hypertension=No,3,0.21118926877147062
+Activity=Active + Alcohol=Regular + Rx=Antihypertensive,3,0.21037133976770817
+BMI=Obese + Hypertension=Yes + Risk=High,3,0.20988058236545068
+Diet=FiberLow + Rx=Antihypertensive + Sex=Female,3,0.2097169965646982
+Alcohol=Regular + Cholesterol=Normal + Risk=NotHigh,3,0.2093898249631932
+Diabetes=No + Risk=NotHigh + Sex=Male,3,0.2093898249631932
+Diet=FiberLow + Hypertension=Yes + Rx=Antihypertensive,3,0.2093898249631932
+Cholesterol=Normal + Risk=NotHigh + Rx=Antihypertensive,3,0.20873548176018322
+Cholesterol=High + Diet=SodiumHigh + Hypertension=No,3,0.20840831015867822
+Diabetes=No + Diet=FiberLow + Hypertension=No,3,0.20824472435792574
+Alcohol=Regular + Diet=FiberLow + Smoking=Ever,3,0.20808113855717325
+Alcohol=Regular + Hypertension=Yes + Sex=Male,3,0.20759038115491577
+Age=60+ + Cholesterol=High + Risk=High,3,0.20742679535416325
+Diet=SodiumHigh + Risk=High + Sex=Female,3,0.20742679535416325
+Cholesterol=High + Diet=FiberLow + Diet=SugarHigh,3,0.20726320955341077
+Diet=SodiumHigh + Risk=High + Sex=Male,3,0.20726320955341077
+Cholesterol=High + Sex=Female + Smoking=Never,3,0.2062816947488958
+Activity=Active + Diabetes=No + Diet=SodiumHigh,3,0.2059545231473908
+Alcohol=Regular + Cholesterol=High + Smoking=Never,3,0.2059545231473908
+Hypertension=Yes + Risk=High + Sex=Female,3,0.2059545231473908
+Alcohol=Regular + Cholesterol=High + Sex=Female,3,0.2054637657451333
+Diet=FiberLow + Diet=SugarHigh + Risk=High,3,0.20530017994438082
+Diet=SodiumHigh + Sex=Male + Smoking=Ever,3,0.20530017994438082
+Activity=Active + Alcohol=Regular + Diet=SugarHigh,3,0.20513659414362834
+Cholesterol=High + Diet=SugarHigh + Sex=Female,3,0.20513659414362834
+Diet=FiberLow + Diet=SodiumHigh + Smoking=Never,3,0.20513659414362834
+Alcohol=Regular + Diet=FiberLow + Sex=Female,3,0.20480942254212334
+Diet=SodiumHigh + Hypertension=No + Sex=Female,3,0.20448225094061837
+Alcohol=Regular + Risk=High + Sex=Male,3,0.20366432193685588
+Alcohol=Regular + Hypertension=No + Smoking=Never,3,0.2031735645345984
+Cholesterol=High + Risk=High + Smoking=Never,3,0.2031735645345984
+Hypertension=Yes + Risk=High + Smoking=Ever,3,0.2031735645345984
+Alcohol=Regular + Cholesterol=Normal + Rx=Antihypertensive,3,0.20251922133158842
+Diet=SodiumHigh + Hypertension=Yes + Sex=Male,3,0.20235563553083594
+BMI=Overweight + Diet=SodiumHigh + Diet=SugarHigh,3,0.20186487812857845
+Diet=SodiumHigh + Hypertension=No + Sex=Male,3,0.20186487812857845
+Alcohol=Regular + Hypertension=Yes + Smoking=Ever,3,0.20170129232782594
+Activity=Active + Alcohol=Regular + Diabetes=No,3,0.20137412072632097
+Diet=SugarHigh + Rx=Antihypertensive + Smoking=Ever,3,0.200065434320301
+Risk=High + Rx=Antihypertensive + Smoking=Ever,3,0.1999018485195485
+Alcohol=Regular + Diet=FiberLow + Hypertension=No,3,0.199738262718796
+BMI=Normal + Diabetes=No + Risk=NotHigh,3,0.19941109111729102
+BMI=Obese + Cholesterol=High + Diet=SodiumHigh,3,0.19924750531653854
+Cholesterol=Normal + Diet=SugarHigh + Risk=NotHigh,3,0.19924750531653854
+Hypertension=Yes + Rx=Antihypertensive + Smoking=Never,3,0.19908391951578602
+Diet=SodiumHigh + Sex=Male + Smoking=Never,3,0.19892033371503354
+Diabetes=No + Diet=FiberLow + Smoking=Never,3,0.19875674791428105
+Cholesterol=High + Risk=High + Sex=Male,3,0.19842957631277605
+Cholesterol=High + Rx=Antihypertensive + Smoking=Ever,3,0.19826599051202357
+Cholesterol=Normal + Diet=SodiumHigh + Hypertension=No,3,0.19793881891051857
+Alcohol=Regular + Cholesterol=Normal + Diet=SugarHigh,3,0.19761164730901357
+Diabetes=No + Diet=SodiumHigh + Smoking=Ever,3,0.19712088990675608
+Cholesterol=High + Diet=FiberLow + Hypertension=Yes,3,0.1969573041060036
+Diet=SodiumHigh + Risk=NotHigh + Sex=Male,3,0.1969573041060036
+Hypertension=No + Risk=NotHigh + Sex=Female,3,0.1967937183052511
+Cholesterol=Normal + Risk=NotHigh + Smoking=Never,3,0.1964665467037461
+Risk=High + Rx=Antihypertensive + Sex=Female,3,0.1964665467037461
+Alcohol=Regular + Diet=FiberLow + Hypertension=Yes,3,0.19630296090299362
+BMI=Obese + Diet=SugarHigh + Risk=High,3,0.19613937510224114
+Hypertension=No + Sex=Female + Smoking=Never,3,0.19613937510224114
+Alcohol=Regular + Cholesterol=High + Hypertension=No,3,0.19564861769998365
+Diet=FiberLow + Diet=SodiumHigh + Sex=Female,3,0.19564861769998365
+Cholesterol=High + Diet=FiberLow + Sex=Female,3,0.19548503189923114
+BMI=Overweight + Diet=SodiumHigh + Rx=Antihypertensive,3,0.19532144609847865
+Diabetes=No + Diet=FiberLow + Risk=NotHigh,3,0.19532144609847865
+Diabetes=No + Diet=FiberLow + Sex=Female,3,0.19515786029772617
+Alcohol=Regular + BMI=Obese + Diet=SodiumHigh,3,0.19433993129396368
+Diet=FiberLow + Risk=High + Sex=Female,3,0.1941763454932112
+Age=60+ + Risk=High + Rx=Antihypertensive,3,0.1940127596924587
+Cholesterol=High + Diabetes=No + Smoking=Never,3,0.1938491738917062
+Cholesterol=Normal + Diabetes=No + Smoking=Never,3,0.1938491738917062
+Diet=FiberLow + Diet=SodiumHigh + Hypertension=No,3,0.1933584164894487
+Diet=SodiumHigh + Risk=High + Smoking=Never,3,0.19270407328643874
+Diet=FiberLow + Sex=Female + Smoking=Never,3,0.19254048748568625
+Hypertension=Yes + Rx=Antihypertensive + Sex=Male,3,0.19254048748568625
+BMI=Obese + Diet=SodiumHigh + Diet=SugarHigh,3,0.19237690168493374
+Alcohol=Regular + BMI=Overweight + Rx=Antihypertensive,3,0.19172255848192377
+BMI=Obese + Diet=SodiumHigh + Rx=Antihypertensive,3,0.19172255848192377
+Age=60+ + Hypertension=Yes + Rx=Antihypertensive,3,0.19155897268117128
+Alcohol=Regular + Diet=FiberLow + Sex=Male,3,0.19123180107966628
+Cholesterol=High + Diet=SugarHigh + Smoking=Ever,3,0.19123180107966628
+Alcohol=Regular + Risk=NotHigh + Sex=Male,3,0.1905774578766563
+Alcohol=Regular + Sex=Female + Smoking=Never,3,0.18959594307214134
+Diet=FiberLow + Diet=SugarHigh + Sex=Female,3,0.18894159986913137
+Activity=Active + Diet=SugarHigh + Rx=Antihypertensive,3,0.1882872566661214
+Alcohol=Regular + Diet=FiberLow + Smoking=Never,3,0.1879600850646164
+BMI=Obese + Cholesterol=High + Rx=Antihypertensive,3,0.1879600850646164
+Cholesterol=Normal + Diet=SugarHigh + Rx=Antihypertensive,3,0.1879600850646164
+Risk=NotHigh + Sex=Female + Smoking=Never,3,0.1877964992638639
+Cholesterol=High + Diet=SugarHigh + Hypertension=No,3,0.1874693276623589
+Cholesterol=Normal + Diet=SodiumHigh + Smoking=Never,3,0.18730574186160642
+Diet=SugarHigh + Hypertension=No + Sex=Female,3,0.18730574186160642
+Alcohol=Regular + BMI=Overweight + Diet=SugarHigh,3,0.18697857026010142
+Diet=SodiumHigh + Hypertension=Yes + Smoking=Never,3,0.18697857026010142
+Alcohol=Regular + Diabetes=No + Hypertension=Yes,3,0.18681498445934894
+Alcohol=Regular + Hypertension=No + Sex=Male,3,0.18665139865859642
+Alcohol=Regular + Hypertension=No + Sex=Female,3,0.18632422705709145
+Diet=SugarHigh + Risk=High + Smoking=Ever,3,0.18616064125633894
+Alcohol=Regular + BMI=Obese + Cholesterol=High,3,0.18583346965483397
+Age=60+ + Diet=SodiumHigh + Risk=High,3,0.18566988385408145
+Cholesterol=High + Diabetes=No + Hypertension=No,3,0.18550629805332897
+Cholesterol=High + Hypertension=Yes + Smoking=Never,3,0.18550629805332897
+Risk=NotHigh + Rx=Antihypertensive + Sex=Male,3,0.18534271225257648
+Hypertension=Yes + Risk=High + Smoking=Never,3,0.18501554065107148
+Alcohol=Regular + Risk=High + Sex=Female,3,0.184851954850319
+Cholesterol=High + Hypertension=Yes + Sex=Female,3,0.1840340258465565
+Hypertension=Yes + Rx=Antihypertensive + Sex=Female,3,0.1840340258465565
+Rx=Antihypertensive + Sex=Male + Smoking=Never,3,0.1840340258465565
+Diet=FiberLow + Diet=SugarHigh + Smoking=Never,3,0.18305251104204154
+Age=60+ + Cholesterol=High + Hypertension=Yes,3,0.18256175363978408
+Activity=Active + Diet=SodiumHigh + Sex=Male,3,0.18239816783903157
+Hypertension=Yes + Risk=High + Sex=Male,3,0.18223458203827908
+Diet=FiberLow + Diet=SugarHigh + Hypertension=No,3,0.1814166530345166
+Rx=Antihypertensive + Sex=Male + Smoking=Ever,3,0.1814166530345166
+Activity=Active + Diabetes=No + Rx=Antihypertensive,3,0.1812530672337641
+Diet=FiberLow + Diet=SodiumHigh + Hypertension=Yes,3,0.1812530672337641
+Activity=Active + Diabetes=No + Diet=SugarHigh,3,0.18059872403075414
+Diabetes=No + Diet=SugarHigh + Smoking=Ever,3,0.18027155242924914
+Risk=High + Rx=Antihypertensive + Sex=Male,3,0.18010796662849665
+Diet=SugarHigh + Risk=High + Sex=Female,3,0.17961720922623917
+Cholesterol=High + Diabetes=No + Diet=FiberLow,3,0.17912645182398168
+Diet=SodiumHigh + Hypertension=Yes + Smoking=Ever,3,0.17912645182398168
+Alcohol=Regular + BMI=Obese + Rx=Antihypertensive,3,0.1789628660232292
+Diabetes=No + Diet=SodiumHigh + Hypertension=Yes,3,0.1789628660232292
+Diet=FiberLow + Diet=SodiumHigh + Sex=Male,3,0.1789628660232292
+BMI=Overweight + Diabetes=No + Diet=SodiumHigh,3,0.1786356944217242
+Diabetes=No + Hypertension=No + Sex=Male,3,0.1783085228202192
+Diet=FiberLow + Hypertension=No + Rx=Antihypertensive,3,0.1778177654179617
+Diet=FiberLow + Rx=Antihypertensive + Sex=Male,3,0.17749059381645674
+Hypertension=Yes + Rx=Antihypertensive + Smoking=Ever,3,0.17749059381645674
+Alcohol=Regular + Cholesterol=Normal + Hypertension=No,3,0.17732700801570422
+Activity=Active + Cholesterol=High + Diet=SodiumHigh,3,0.17699983641419925
+Activity=Active + Diabetes=No + Risk=NotHigh,3,0.17667266481269425
+Alcohol=Regular + BMI=Overweight + Diabetes=No,3,0.17667266481269425
+Risk=High + Rx=Antihypertensive + Smoking=Never,3,0.17667266481269425
+Cholesterol=High + Diabetes=No + Sex=Female,3,0.17650907901194177
+Diet=FiberLow + Risk=High + Smoking=Ever,3,0.17650907901194177
+Age=60+ + Alcohol=Regular + Risk=High,3,0.17618190741043677
+Activity=Active + Alcohol=Regular + Sex=Male,3,0.17601832160968428
+Cholesterol=Normal + Rx=Antihypertensive + Smoking=Never,3,0.17601832160968428
+BMI=Obese + Cholesterol=High + Diet=SugarHigh,3,0.17569115000817928
+Diet=SugarHigh + Sex=Male + Smoking=Ever,3,0.1755275642074268
+Cholesterol=Normal + Hypertension=No + Rx=Antihypertensive,3,0.1753639784066743
+Diabetes=No + Diet=SodiumHigh + Risk=High,3,0.1753639784066743
+BMI=Normal + Diabetes=No + Diet=SodiumHigh,3,0.1752003926059218
+BMI=Normal + Hypertension=No + Risk=NotHigh,3,0.1752003926059218
+Cholesterol=High + Hypertension=Yes + Sex=Male,3,0.17487322100441682
+Diabetes=No + Hypertension=Yes + Rx=Antihypertensive,3,0.1747096352036643
+Diet=SugarHigh + Risk=NotHigh + Sex=Male,3,0.1747096352036643
+Hypertension=No + Risk=NotHigh + Sex=Male,3,0.1747096352036643
+Cholesterol=High + Diabetes=No + Risk=High,3,0.17372812039914937
+Cholesterol=High + Hypertension=Yes + Smoking=Ever,3,0.17340094879764437
+Hypertension=No + Rx=Antihypertensive + Sex=Male,3,0.17291019139538688
+BMI=Obese + Cholesterol=High + Hypertension=Yes,3,0.17258301979388188
+BMI=Obese + Diet=FiberLow + Risk=High,3,0.1722558481923769
+Diet=SugarHigh + Hypertension=No + Sex=Male,3,0.1722558481923769
+Alcohol=Regular + Sex=Male + Smoking=Never,3,0.1720922623916244
+Cholesterol=High + Diet=FiberLow + Smoking=Never,3,0.1720922623916244
+Cholesterol=Normal + Diet=SugarHigh + Hypertension=No,3,0.1720922623916244
+BMI=Obese + Risk=High + Sex=Female,3,0.17127433338786194
+Diet=FiberLow + Hypertension=No + Risk=NotHigh,3,0.17111074758710945
+Activity=Active + Alcohol=Regular + Cholesterol=High,3,0.17094716178635694
+BMI=Overweight + Diet=SugarHigh + Rx=Antihypertensive,3,0.17029281858334697
+Alcohol=Regular + BMI=Obese + Diet=SugarHigh,3,0.16996564698184197
+BMI=Normal + Diet=SodiumHigh + Risk=NotHigh,3,0.16996564698184197
+Alcohol=Regular + Hypertension=No + Smoking=Ever,3,0.16980206118108948
+Diet=FiberLow + Rx=Antihypertensive + Smoking=Ever,3,0.16980206118108948
+Diet=FiberLow + Diet=SodiumHigh + Smoking=Ever,3,0.16947488957958448
+Diabetes=No + Rx=Antihypertensive + Smoking=Ever,3,0.169311303778832
+Age=60+ + Cholesterol=High + Rx=Antihypertensive,3,0.1691477179780795
+Hypertension=No + Rx=Antihypertensive + Sex=Female,3,0.1691477179780795
+Alcohol=Regular + Diabetes=No + Risk=High,3,0.1688205463765745
+Age=60+ + Diet=SodiumHigh + Hypertension=Yes,3,0.16816620317356454
+Diet=SugarHigh + Hypertension=Yes + Sex=Male,3,0.16783903157205954
+BMI=Obese + Hypertension=Yes + Rx=Antihypertensive,3,0.16767544577130705
+Alcohol=Regular + BMI=Overweight + Cholesterol=High,3,0.16751185997055457
+Cholesterol=High + Hypertension=No + Rx=Antihypertensive,3,0.16669393096679208
+Activity=Active + Rx=Antihypertensive + Sex=Male,3,0.1665303451660396
+BMI=Overweight + Cholesterol=High + Diet=SodiumHigh,3,0.1665303451660396
+Age=18-29 + Diabetes=No + Hypertension=No,3,0.16636675936528708
+BMI=Obese + Diet=SodiumHigh + Hypertension=Yes,3,0.1660395877637821
+BMI=Normal + Diabetes=No + Hypertension=No,3,0.1657124161622771
+Activity=Active + Diet=SodiumHigh + Hypertension=No,3,0.16538524456077214
+Diet=SugarHigh + Risk=High + Sex=Male,3,0.16538524456077214
+Cholesterol=High + Diabetes=No + Risk=NotHigh,3,0.16505807295926714
+Alcohol=Regular + BMI=Normal + Diabetes=No,3,0.16456731555700965
+Cholesterol=Normal + Hypertension=No + Smoking=Never,3,0.16456731555700965
+Diet=SugarHigh + Sex=Male + Smoking=Never,3,0.16456731555700965
+BMI=Normal + Diet=SodiumHigh + Diet=SugarHigh,3,0.16374938655324717
+Cholesterol=Normal + Diabetes=No + Diet=FiberLow,3,0.16374938655324717
+Diet=SodiumHigh + Hypertension=Yes + Sex=Female,3,0.16374938655324717
+Diet=SugarHigh + Hypertension=Yes + Smoking=Never,3,0.16358580075249468
+Age=30-44 + Alcohol=Regular + Diet=SodiumHigh,3,0.16325862915098968
+Alcohol=Regular + BMI=Normal + Diet=SodiumHigh,3,0.16325862915098968
+Diabetes=No + Diet=SugarHigh + Hypertension=Yes,3,0.16325862915098968
+Age=60+ + Alcohol=Regular + Hypertension=Yes,3,0.1630950433502372
+BMI=Obese + Diet=SugarHigh + Rx=Antihypertensive,3,0.1626042859479797
+BMI=Overweight + Diet=SodiumHigh + Sex=Male,3,0.1626042859479797
+Alcohol=Regular + BMI=Overweight + Sex=Male,3,0.16227711434647474
+Cholesterol=High + Diabetes=No + Sex=Male,3,0.16227711434647474
+Activity=Active + Diabetes=No + Hypertension=No,3,0.16194994274496974
+Diabetes=No + Sex=Male + Smoking=Never,3,0.16178635694421725
+Activity=Active + Diet=SodiumHigh + Smoking=Never,3,0.16129559954195977
+Age=18-29 + Diabetes=No + Risk=NotHigh,3,0.16129559954195977
+Cholesterol=High + Sex=Male + Smoking=Ever,3,0.16080484213970228
+Diet=SodiumHigh + Risk=NotHigh + Sex=Female,3,0.16080484213970228
+BMI=Overweight + Diabetes=No + Risk=NotHigh,3,0.16047767053819728
+Activity=Active + Cholesterol=High + Rx=Antihypertensive,3,0.1603140847374448
+BMI=Overweight + Diabetes=No + Diet=SugarHigh,3,0.1598233273351873
+Diet=FiberLow + Diet=SugarHigh + Hypertension=Yes,3,0.1598233273351873
+Age=18-29 + Diabetes=No + Diet=SodiumHigh,3,0.1594961557336823
+Age=30-44 + Diabetes=No + Diet=SodiumHigh,3,0.1594961557336823
+Diet=SugarHigh + Risk=High + Smoking=Never,3,0.15884181253067234
+Age=60+ + Diet=SodiumHigh + Rx=Antihypertensive,3,0.15867822672991985
+BMI=Normal + Diabetes=No + Rx=Antihypertensive,3,0.15867822672991985
+Cholesterol=High + Diet=FiberLow + Smoking=Ever,3,0.15867822672991985
+Cholesterol=Normal + Diet=SugarHigh + Smoking=Never,3,0.15867822672991985
+Alcohol=Regular + Hypertension=Yes + Smoking=Never,3,0.15851464092916734
+BMI=Normal + Diet=SodiumHigh + Rx=Antihypertensive,3,0.15851464092916734
+BMI=Overweight + Diabetes=No + Rx=Antihypertensive,3,0.15851464092916734
+Age=60+ + Cholesterol=High + Diet=SodiumHigh,3,0.15818746932766237
+Diet=FiberLow + Diet=SugarHigh + Smoking=Ever,3,0.15818746932766237
+Alcohol=Regular + BMI=Normal + Risk=NotHigh,3,0.15802388352690985
+Alcohol=Regular + Diet=FiberLow + Risk=NotHigh,3,0.15802388352690985
+Age=30-44 + Alcohol=Regular + Diabetes=No,3,0.15786029772615737
+Alcohol=Regular + Cholesterol=Normal + Diet=FiberLow,3,0.15786029772615737
+Diet=FiberLow + Hypertension=No + Sex=Female,3,0.15736954032389988
+Diet=FiberLow + Hypertension=No + Smoking=Never,3,0.15736954032389988
+BMI=Normal + Risk=NotHigh + Rx=Antihypertensive,3,0.1568787829216424
+Risk=NotHigh + Rx=Antihypertensive + Sex=Female,3,0.1567151971208899
+BMI=Overweight + Cholesterol=High + Rx=Antihypertensive,3,0.1563880255193849
+Cholesterol=High + Hypertension=No + Smoking=Never,3,0.15606085391787994
+Alcohol=Regular + BMI=Obese + Hypertension=Yes,3,0.15589726811712742
+Alcohol=Regular + Cholesterol=Normal + Smoking=Never,3,0.15573368231637494
+BMI=Normal + Diabetes=No + Diet=SugarHigh,3,0.15573368231637494
+Activity=Active + Cholesterol=High + Diet=SugarHigh,3,0.15557009651562245
+Activity=Active + Diet=SodiumHigh + Risk=NotHigh,3,0.15557009651562245
+Cholesterol=Normal + Diabetes=No + Sex=Female,3,0.15557009651562245
+Age=30-44 + Diet=SodiumHigh + Diet=SugarHigh,3,0.15524292491411745
+Risk=High + Sex=Female + Smoking=Never,3,0.15524292491411745
+Activity=Active + Alcohol=Regular + Hypertension=No,3,0.15507933911336497
+Diet=FiberLow + Risk=NotHigh + Rx=Antihypertensive,3,0.15507933911336497
+Age=60+ + Alcohol=Regular + Diet=SodiumHigh,3,0.15475216751185997
+Activity=Active + Alcohol=Regular + Smoking=Ever,3,0.15458858171110748
+Activity=Active + Hypertension=No + Risk=NotHigh,3,0.15426141010960248
+Diet=SugarHigh + Risk=NotHigh + Sex=Female,3,0.15426141010960248
+Age=60+ + Diet=SugarHigh + Risk=High,3,0.15409782430885
+Alcohol=Regular + Risk=NotHigh + Sex=Female,3,0.15409782430885
+Age=60+ + Alcohol=Regular + Cholesterol=High,3,0.153770652707345
+Cholesterol=Normal + Diet=SodiumHigh + Sex=Male,3,0.153770652707345
+Activity=Active + Diet=SugarHigh + Sex=Male,3,0.1536070669065925
+BMI=Obese + Risk=High + Smoking=Never,3,0.15344348110584002
+Cholesterol=High + Diabetes=No + Hypertension=Yes,3,0.1532798953050875
+BMI=Obese + Cholesterol=High + Sex=Female,3,0.15311630950433502
+Activity=Active + Alcohol=Regular + Risk=NotHigh,3,0.15295272370358254
+Age=60+ + Alcohol=Regular + Rx=Antihypertensive,3,0.15295272370358254
+Cholesterol=Normal + Diet=FiberLow + Rx=Antihypertensive,3,0.15295272370358254
+Alcohol=Regular + Hypertension=Yes + Sex=Female,3,0.15262555210207754
+Alcohol=Regular + BMI=Overweight + Diet=FiberLow,3,0.15246196630132505
+BMI=Normal + Diet=SodiumHigh + Hypertension=No,3,0.15246196630132505
+Diet=FiberLow + Diet=SugarHigh + Sex=Male,3,0.15229838050057254
+Age=18-29 + Hypertension=No + Risk=NotHigh,3,0.15213479469982005
+BMI=Normal + Risk=NotHigh + Smoking=Never,3,0.15213479469982005
+BMI=Normal + Diet=SugarHigh + Risk=NotHigh,3,0.15197120889906757
+Age=60+ + Diet=FiberLow + Risk=High,3,0.15148045149681008
+Risk=High + Sex=Male + Smoking=Ever,3,0.15148045149681008
+BMI=Obese + Diet=SodiumHigh + Smoking=Never,3,0.1513168656960576
+Cholesterol=Normal + Diet=FiberLow + Diet=SodiumHigh,3,0.1513168656960576
+Diabetes=No + Hypertension=Yes + Risk=High,3,0.1509896940945526
+Activity=Active + Rx=Antihypertensive + Smoking=Never,3,0.1508261082938001
+Diet=FiberLow + Hypertension=Yes + Sex=Female,3,0.1508261082938001
+Diet=SugarHigh + Hypertension=Yes + Smoking=Ever,3,0.1508261082938001
+Cholesterol=High + Hypertension=No + Risk=NotHigh,3,0.1506625224930476
+Diet=SodiumHigh + Hypertension=No + Smoking=Ever,3,0.1504989366922951
+Diet=FiberLow + Risk=High + Smoking=Never,3,0.14984459348928514
+Cholesterol=High + Risk=High + Rx=Statin,3,0.14968100768853262
+Alcohol=Regular + Sex=Female + Smoking=Ever,3,0.14935383608702765
+Diabetes=No + Diet=SugarHigh + Risk=High,3,0.14935383608702765
+Age=60+ + Diet=SodiumHigh + Diet=SugarHigh,3,0.14902666448552265
+BMI=Overweight + Diet=SodiumHigh + Smoking=Never,3,0.1482087354817602
+Activity=Active + Alcohol=Regular + Diet=FiberLow,3,0.1478815638802552
+Age=18-29 + Diabetes=No + Rx=Antihypertensive,3,0.1477179780795027
+Diabetes=No + Diet=FiberLow + Sex=Male,3,0.1477179780795027
+Diabetes=No + Diet=FiberLow + Risk=High,3,0.1475543922787502
+Activity=Active + Risk=NotHigh + Rx=Antihypertensive,3,0.14722722067724522
+Risk=NotHigh + Sex=Male + Smoking=Never,3,0.1470636348764927
+BMI=Obese + Cholesterol=High + Smoking=Never,3,0.14690004907574022
+Diet=FiberLow + Risk=NotHigh + Smoking=Never,3,0.14690004907574022
+Hypertension=Yes + Sex=Female + Smoking=Never,3,0.14690004907574022
+Age=30-44 + Diet=SodiumHigh + Rx=Antihypertensive,3,0.14673646327498774
+Age=18-29 + Diet=SodiumHigh + Hypertension=No,3,0.14657287747423522
+Diet=SugarHigh + Hypertension=Yes + Sex=Female,3,0.14657287747423522
+Activity=Active + Diet=SugarHigh + Hypertension=No,3,0.14624570587273025
+BMI=Obese + Rx=Antihypertensive + Smoking=Never,3,0.14624570587273025
+BMI=Overweight + Cholesterol=High + Diet=SugarHigh,3,0.14624570587273025
+Activity=Active + Diet=SodiumHigh + Risk=High,3,0.14608212007197774
+Activity=Active + Cholesterol=High + Risk=High,3,0.14575494847047277
+Alcohol=Regular + Cholesterol=Normal + Sex=Male,3,0.14559136266972028
+Age=30-44 + Alcohol=Regular + Diet=SugarHigh,3,0.1451006052674628
+Cholesterol=High + Hypertension=No + Sex=Female,3,0.1451006052674628
+Cholesterol=High + Diabetes=No + Smoking=Ever,3,0.14493701946671028
+Cholesterol=Normal + Rx=Antihypertensive + Sex=Male,3,0.1446098478652053
+Cholesterol=Normal + Diet=SodiumHigh + Sex=Female,3,0.1444462620644528
+Alcohol=Regular + Risk=High + Smoking=Never,3,0.1442826762637003
+BMI=Overweight + Diet=SodiumHigh + Hypertension=No,3,0.1442826762637003
+BMI=Obese + Diet=SodiumHigh + Sex=Female,3,0.14411909046294782
+BMI=Overweight + Rx=Antihypertensive + Sex=Male,3,0.14411909046294782
+Diabetes=No + Diet=FiberLow + Smoking=Ever,3,0.14411909046294782
+Cholesterol=Normal + Risk=NotHigh + Sex=Female,3,0.14362833306069034
+Age=45-59 + Alcohol=Regular + Diet=SodiumHigh,3,0.14297398985768037
+Alcohol=Regular + BMI=Normal + Rx=Antihypertensive,3,0.14297398985768037
+Alcohol=Regular + BMI=Overweight + Risk=NotHigh,3,0.14297398985768037
+Activity=Active + Diabetes=No + Smoking=Never,3,0.14281040405692785
+Activity=Active + Hypertension=No + Rx=Antihypertensive,3,0.14281040405692785
+BMI=Normal + Diabetes=No + Smoking=Never,3,0.14281040405692785
+BMI=Overweight + Rx=Antihypertensive + Smoking=Never,3,0.14281040405692785
+Diabetes=No + Risk=High + Rx=Antihypertensive,3,0.14281040405692785
+Age=60+ + Diet=SugarHigh + Hypertension=Yes,3,0.14248323245542288
+BMI=Overweight + Diet=SodiumHigh + Risk=NotHigh,3,0.14231964665467037
+Diabetes=No + Sex=Male + Smoking=Ever,3,0.1419924750531654
+BMI=Obese + Cholesterol=High + Diet=FiberLow,3,0.14182888925241288
+Cholesterol=Normal + Diet=FiberLow + Risk=NotHigh,3,0.1416653034516604
+Activity=Active + Diet=SugarHigh + Risk=NotHigh,3,0.1415017176509079
+Activity=Active + Diet=SugarHigh + Smoking=Never,3,0.1415017176509079
+BMI=Obese + Diet=SugarHigh + Hypertension=Yes,3,0.1415017176509079
+Cholesterol=Normal + Diabetes=No + Sex=Male,3,0.1415017176509079
+Age=30-44 + Alcohol=Regular + Rx=Antihypertensive,3,0.1413381318501554
+Age=30-44 + Diabetes=No + Diet=SugarHigh,3,0.1413381318501554
+BMI=Obese + Risk=High + Smoking=Ever,3,0.14101096024865042
+Age=18-29 + Diabetes=No + Diet=SugarHigh,3,0.1408473744478979
+Activity=Active + Diet=SodiumHigh + Smoking=Ever,3,0.14035661704564042
+Age=30-44 + Diabetes=No + Rx=Antihypertensive,3,0.14019303124488794
+Alcohol=Regular + BMI=Normal + Diet=SugarHigh,3,0.14019303124488794
+BMI=Overweight + Diet=FiberLow + Rx=Antihypertensive,3,0.14019303124488794
+Age=30-44 + Diabetes=No + Risk=NotHigh,3,0.13986585964338297
+Cholesterol=Normal + Risk=NotHigh + Sex=Male,3,0.13986585964338297
+Diet=FiberLow + Diet=SodiumHigh + Risk=NotHigh,3,0.13986585964338297
+Activity=Active + Diabetes=No + Sex=Male,3,0.13953868804187797
+Alcohol=Regular + BMI=Overweight + Hypertension=No,3,0.13953868804187797
+BMI=Obese + Rx=Antihypertensive + Sex=Female,3,0.13953868804187797
+BMI=Overweight + Diet=FiberLow + Diet=SodiumHigh,3,0.13953868804187797
+BMI=Normal + Cholesterol=Normal + Risk=NotHigh,3,0.13937510224112548
+Diet=FiberLow + Hypertension=Yes + Smoking=Never,3,0.13937510224112548
+BMI=Overweight + Hypertension=No + Risk=NotHigh,3,0.13921151644037297
+Diabetes=No + Hypertension=No + Smoking=Ever,3,0.13904793063962048
+Age=30-44 + Diabetes=No + Hypertension=No,3,0.138884344838868
+Diet=SugarHigh + Hypertension=No + Smoking=Ever,3,0.138884344838868
+Activity=Active + Diet=FiberLow + Rx=Antihypertensive,3,0.13872075903811548
+Cholesterol=High + Risk=NotHigh + Smoking=Never,3,0.1383935874366105
+Alcohol=Regular + BMI=Overweight + Smoking=Ever,3,0.138230001635858
+Activity=Active + Diet=FiberLow + Diet=SodiumHigh,3,0.1380664158351055
+Hypertension=Yes + Risk=High + Rx=Statin,3,0.1377392442336005
+Age=60+ + Risk=High + Sex=Female,3,0.13757565843284802
+Activity=Active + Alcohol=Regular + Risk=High,3,0.13741207263209554
+Age=60+ + Cholesterol=High + Diet=SugarHigh,3,0.13724848683134305
+BMI=Overweight + Cholesterol=High + Risk=High,3,0.13724848683134305
+Age=18-29 + Diabetes=No + Smoking=Never,3,0.13708490103059054
+Age=18-29 + Hypertension=No + Rx=Antihypertensive,3,0.13708490103059054
+Age=60+ + Risk=High + Smoking=Ever,3,0.13692131522983805
+BMI=Obese + Diet=FiberLow + Rx=Antihypertensive,3,0.13692131522983805
+Cholesterol=Normal + Sex=Female + Smoking=Never,3,0.13675772942908557
+Activity=Active + Diet=SodiumHigh + Hypertension=Yes,3,0.13626697202682808
+Diet=FiberLow + Diet=SugarHigh + Risk=NotHigh,3,0.13593980042532308
+Activity=Active + Alcohol=Regular + Smoking=Never,3,0.1357762146245706
+BMI=Normal + Diet=SugarHigh + Rx=Antihypertensive,3,0.1357762146245706
+Cholesterol=High + Diet=SodiumHigh + Risk=NotHigh,3,0.13561262882381808
+BMI=Overweight + Diabetes=No + Hypertension=No,3,0.1354490430230656
+Cholesterol=High + Hypertension=Yes + Rx=Statin,3,0.1354490430230656
+Activity=Active + Alcohol=Regular + Hypertension=Yes,3,0.1352854572223131
+Activity=SedentaryHigh + Alcohol=Regular + Diet=SodiumHigh,3,0.1352854572223131
+Alcohol=Regular + Cholesterol=High + Risk=NotHigh,3,0.1352854572223131
+BMI=Normal + Diet=SodiumHigh + Smoking=Never,3,0.1352854572223131
+BMI=Overweight + Risk=NotHigh + Rx=Antihypertensive,3,0.1352854572223131
+Cholesterol=High + Diet=FiberLow + Sex=Male,3,0.1352854572223131
+Cholesterol=High + Sex=Male + Smoking=Never,3,0.1352854572223131
+BMI=Overweight + Diet=SugarHigh + Sex=Male,3,0.1351218714215606
+Cholesterol=High + Diabetes=Yes + Risk=High,3,0.1351218714215606
+Alcohol=Regular + BMI=Normal + Hypertension=No,3,0.13479469982005562
+Age=30-44 + Diet=SodiumHigh + Hypertension=No,3,0.1346311140193031
+Diabetes=No + Diet=FiberLow + Hypertension=Yes,3,0.1346311140193031
+Hypertension=Yes + Sex=Male + Smoking=Ever,3,0.13446752821855062
+Age=18-29 + Diet=SodiumHigh + Risk=NotHigh,3,0.13414035661704565
+Age=18-29 + Diet=SodiumHigh + Diet=SugarHigh,3,0.13397677081629314
+Cholesterol=Normal + Diet=FiberLow + Diet=SugarHigh,3,0.13397677081629314
+Alcohol=Regular + BMI=Obese + Diet=FiberLow,3,0.13381318501554065
+Cholesterol=High + Diet=FiberLow + Hypertension=No,3,0.13381318501554065
+Age=18-29 + Alcohol=Regular + Diabetes=No,3,0.13364959921478817
+Alcohol=Regular + Cholesterol=Normal + Sex=Female,3,0.13348601341403565
+Age=18-29 + Diet=SodiumHigh + Rx=Antihypertensive,3,0.13332242761328317
+BMI=Obese + Diabetes=No + Diet=SodiumHigh,3,0.13332242761328317
+Cholesterol=High + Risk=NotHigh + Rx=Antihypertensive,3,0.13332242761328317
+Age=60+ + Diet=FiberLow + Hypertension=Yes,3,0.13315884181253068
+Cholesterol=Normal + Hypertension=No + Sex=Female,3,0.1326680844102732
+BMI=Obese + Diet=SugarHigh + Smoking=Never,3,0.13250449860952068
+Cholesterol=Normal + Diet=FiberLow + Hypertension=No,3,0.1323409128087682
+BMI=Overweight + Diet=SugarHigh + Risk=NotHigh,3,0.1321773270080157
+Diet=FiberLow + Hypertension=Yes + Smoking=Ever,3,0.1321773270080157
+Diet=FiberLow + Risk=High + Sex=Male,3,0.1321773270080157
+Activity=Active + Hypertension=Yes + Rx=Antihypertensive,3,0.1320137412072632
+Activity=SedentaryHigh + Diet=SodiumHigh + Diet=SugarHigh,3,0.1320137412072632
+BMI=Normal + Cholesterol=Normal + Diabetes=No,3,0.1318501554065107
+Age=45-59 + Diet=SodiumHigh + Diet=SugarHigh,3,0.13168656960575822
+BMI=Overweight + Hypertension=Yes + Rx=Antihypertensive,3,0.13168656960575822
+Risk=High + Sex=Female + Smoking=Ever,3,0.13168656960575822
+Age=60+ + Diet=SugarHigh + Rx=Antihypertensive,3,0.13152298380500574
+BMI=Normal + Diet=SugarHigh + Hypertension=No,3,0.13152298380500574
+BMI=Normal + Hypertension=No + Rx=Antihypertensive,3,0.13135939800425322
+Age=18-29 + Hypertension=No + Smoking=Never,3,0.13086864060199574
+Cholesterol=Normal + Rx=Antihypertensive + Sex=Female,3,0.13054146900049077
+Activity=Active + Risk=NotHigh + Smoking=Never,3,0.13021429739898577
+BMI=Overweight + Diabetes=No + Smoking=Never,3,0.13021429739898577
+Age=18-29 + Diet=SugarHigh + Hypertension=No,3,0.13005071159823328
+BMI=Overweight + Diet=SugarHigh + Smoking=Never,3,0.13005071159823328
+Diabetes=No + Hypertension=Yes + Smoking=Never,3,0.13005071159823328
+Cholesterol=High + Diet=SugarHigh + Risk=NotHigh,3,0.12972353999672828
+Age=30-44 + Alcohol=Regular + Hypertension=No,3,0.1295599541959758
+Alcohol=Regular + BMI=Obese + Diabetes=No,3,0.1295599541959758
+BMI=Overweight + Diet=SugarHigh + Hypertension=No,3,0.12939636839522328
+Activity=Active + Cholesterol=High + Diabetes=No,3,0.1292327825944708
+Activity=Active + Diabetes=No + Diet=FiberLow,3,0.1289056109929658
+Alcohol=Regular + BMI=Obese + Sex=Female,3,0.1287420251922133
+Cholesterol=Normal + Diet=SugarHigh + Sex=Female,3,0.1287420251922133
+Age=60+ + Alcohol=Regular + Diet=SugarHigh,3,0.12857843939146082
+Cholesterol=Normal + Diet=SugarHigh + Sex=Male,3,0.12841485359070834
+Alcohol=Regular + BMI=Obese + Smoking=Ever,3,0.12825126778995583
+BMI=Obese + Diet=SugarHigh + Sex=Female,3,0.12808768198920334
+Alcohol=Regular + BMI=Overweight + Smoking=Never,3,0.12792409618845085
+BMI=Normal + Hypertension=No + Smoking=Never,3,0.12776051038769834
+Activity=Active + Risk=High + Rx=Antihypertensive,3,0.12759692458694585
+Age=18-29 + Risk=NotHigh + Rx=Antihypertensive,3,0.12743333878619337
+Age=30-44 + Diet=SugarHigh + Rx=Antihypertensive,3,0.12743333878619337
+BMI=Overweight + Risk=NotHigh + Smoking=Never,3,0.12743333878619337
+Activity=Active + Hypertension=Yes + Risk=High,3,0.12726975298544085
+Alcohol=Regular + Risk=NotHigh + Smoking=Ever,3,0.12726975298544085
+Age=30-44 + Hypertension=No + Risk=NotHigh,3,0.12710616718468837
+Age=45-59 + Alcohol=Regular + Cholesterol=High,3,0.12710616718468837
+Diabetes=No + Risk=NotHigh + Smoking=Ever,3,0.12694258138393588
+BMI=Obese + Diet=FiberLow + Diet=SodiumHigh,3,0.12677899558318337
+Alcohol=Regular + BMI=Overweight + Hypertension=Yes,3,0.12661540978243088
+BMI=Overweight + Diet=SodiumHigh + Risk=High,3,0.1264518239816784
+Age=60+ + Alcohol=Regular + Smoking=Ever,3,0.12628823818092588
+BMI=Overweight + Diet=FiberLow + Diet=SugarHigh,3,0.12628823818092588
+Cholesterol=High + Diabetes=Prediabetes + Risk=High,3,0.12628823818092588
+Age=18-29 + Risk=NotHigh + Smoking=Never,3,0.1261246523801734
+Age=60+ + Hypertension=Yes + Sex=Female,3,0.1259610665794209
+Risk=High + Rx=Antihypertensive + Rx=Statin,3,0.1259610665794209
+Activity=Active + Cholesterol=High + Sex=Male,3,0.12579748077866842
+Age=45-59 + Cholesterol=High + Diet=SodiumHigh,3,0.12547030917716342
+BMI=Overweight + Cholesterol=High + Hypertension=Yes,3,0.12547030917716342
+Diabetes=No + Hypertension=Yes + Sex=Male,3,0.12547030917716342
+Diet=FiberLow + Sex=Male + Smoking=Ever,3,0.12530672337641094
+Hypertension=Yes + Rx=Antihypertensive + Rx=Statin,3,0.12514313757565843
+Activity=SedentaryHigh + Diet=SodiumHigh + Rx=Antihypertensive,3,0.12497955177490594
+BMI=Overweight + Diabetes=No + Diet=FiberLow,3,0.12497955177490594
+BMI=Obese + Diabetes=No + Risk=High,3,0.12481596597415344
+BMI=Obese + Sex=Female + Smoking=Never,3,0.12481596597415344
+Activity=Active + Cholesterol=Normal + Diet=SodiumHigh,3,0.12465238017340095
+Cholesterol=Normal + Diet=FiberLow + Smoking=Never,3,0.12465238017340095
+BMI=Overweight + Diet=SodiumHigh + Hypertension=Yes,3,0.12448879437264845
+Hypertension=No + Sex=Male + Smoking=Never,3,0.12448879437264845
+Diet=SodiumHigh + Sex=Female + Smoking=Ever,3,0.12432520857189595
+Activity=Active + Rx=Antihypertensive + Smoking=Ever,3,0.12399803697039097
+Activity=SedentaryHigh + Diet=SodiumHigh + Risk=High,3,0.12399803697039097
+Age=60+ + Diet=FiberLow + Rx=Antihypertensive,3,0.12399803697039097
+BMI=Normal + Rx=Antihypertensive + Smoking=Never,3,0.12399803697039097
+Cholesterol=High + Rx=Antihypertensive + Rx=Statin,3,0.12399803697039097
+Activity=Active + Diet=FiberLow + Diet=SugarHigh,3,0.12383445116963848
+Activity=SedentaryHigh + Cholesterol=High + Risk=High,3,0.12367086536888598
+Age=45-59 + Alcohol=Regular + Diet=SugarHigh,3,0.12367086536888598
+Age=60+ + Risk=High + Rx=Statin,3,0.12367086536888598
+Age=60+ + Cholesterol=High + Diet=FiberLow,3,0.123343693767381
+Alcohol=Regular + Cholesterol=Normal + Smoking=Ever,3,0.123343693767381
+Activity=Active + Cholesterol=Normal + Diabetes=No,3,0.1231801079666285
+Alcohol=Regular + BMI=Overweight + Risk=High,3,0.1231801079666285
+BMI=Obese + Risk=High + Sex=Male,3,0.1231801079666285
+BMI=Overweight + Cholesterol=High + Sex=Male,3,0.1231801079666285
+BMI=Overweight + Cholesterol=High + Diabetes=No,3,0.123016522165876
+Age=18-29 + Diet=SodiumHigh + Smoking=Never,3,0.12285293636512351
+Cholesterol=High + Sex=Female + Smoking=Ever,3,0.12285293636512351
+Diabetes=Yes + Hypertension=Yes + Risk=High,3,0.12285293636512351
+BMI=Obese + Hypertension=Yes + Sex=Female,3,0.12268935056437101
+Age=60+ + Cholesterol=High + Sex=Female,3,0.12219859316211353
+BMI=Overweight + Hypertension=Yes + Risk=High,3,0.12219859316211353
+Diabetes=Prediabetes + Diet=SodiumHigh + Risk=High,3,0.12203500736136104
+Activity=Active + Cholesterol=High + Hypertension=Yes,3,0.12170783575985604
+Age=18-29 + Alcohol=Regular + Diet=SodiumHigh,3,0.12138066415835105
+Age=18-29 + Alcohol=Regular + Hypertension=No,3,0.12121707835759855
+BMI=Normal + Cholesterol=Normal + Diet=SodiumHigh,3,0.12121707835759855
+Cholesterol=High + Hypertension=No + Sex=Male,3,0.12121707835759855
+Diabetes=No + Risk=High + Smoking=Ever,3,0.12121707835759855
+BMI=Obese + Diet=FiberLow + Sex=Female,3,0.12105349255684607
+BMI=Obese + Diabetes=No + Diet=SugarHigh,3,0.12088990675609357
+Diabetes=Yes + Risk=High + Rx=Antihypertensive,3,0.12072632095534108
+Diet=FiberLow + Hypertension=Yes + Sex=Male,3,0.12072632095534108
+BMI=Overweight + Diet=SodiumHigh + Smoking=Ever,3,0.12056273515458858
+Age=30-44 + Diet=SodiumHigh + Smoking=Never,3,0.12039914935383608
+Age=60+ + Hypertension=Yes + Smoking=Never,3,0.12039914935383608
+BMI=Obese + Diet=SodiumHigh + Sex=Male,3,0.12039914935383608
+Activity=Active + Cholesterol=Normal + Risk=NotHigh,3,0.1202355635530836
+Activity=Active + Diet=SugarHigh + Risk=High,3,0.1200719777523311
+Activity=Active + Diet=SugarHigh + Smoking=Ever,3,0.1200719777523311
+Hypertension=No + Rx=Antihypertensive + Smoking=Ever,3,0.1199083919515786
+Age=30-44 + Alcohol=Regular + Risk=NotHigh,3,0.11974480615082611
+Activity=Active + Hypertension=No + Smoking=Never,3,0.11958122035007361
+Age=18-29 + Diet=SugarHigh + Risk=NotHigh,3,0.11958122035007361
+Activity=Active + Alcohol=Regular + Cholesterol=Normal,3,0.11941763454932112
+Activity=Active + Diet=SodiumHigh + Sex=Female,3,0.11925404874856863
+Age=45-59 + Alcohol=Regular + Rx=Antihypertensive,3,0.11925404874856863
+Alcohol=Regular + Cholesterol=High + Rx=Statin,3,0.11925404874856863
+BMI=Obese + Diabetes=No + Rx=Antihypertensive,3,0.11925404874856863
+BMI=Obese + Diet=FiberLow + Hypertension=Yes,3,0.11925404874856863
+Diabetes=No + Risk=High + Sex=Female,3,0.11925404874856863
+Age=30-44 + Diet=SodiumHigh + Risk=NotHigh,3,0.11909046294781613
+BMI=Normal + Diabetes=No + Sex=Female,3,0.11892687714706364
+BMI=Overweight + Diabetes=No + Sex=Male,3,0.11892687714706364
+Age=30-44 + Hypertension=No + Rx=Antihypertensive,3,0.11876329134631114
+Alcohol=Regular + BMI=Obese + Smoking=Never,3,0.11876329134631114
+Cholesterol=High + Diet=SodiumHigh + Rx=Statin,3,0.11876329134631114
+BMI=Overweight + Cholesterol=High + Diet=FiberLow,3,0.11859970554555864
+BMI=Overweight + Hypertension=No + Rx=Antihypertensive,3,0.11859970554555864
+Diet=SodiumHigh + Risk=High + Rx=Statin,3,0.11859970554555864
+Age=30-44 + Diabetes=No + Smoking=Never,3,0.11843611974480615
+BMI=Obese + Diet=FiberLow + Diet=SugarHigh,3,0.11843611974480615
+Activity=Active + Cholesterol=High + Smoking=Never,3,0.11827253394405365
+Activity=SedentaryHigh + Alcohol=Regular + Risk=High,3,0.11827253394405365
+Alcohol=Regular + BMI=Obese + Sex=Male,3,0.11827253394405365
+Age=60+ + Alcohol=Regular + Sex=Male,3,0.11810894814330117
+Age=60+ + Cholesterol=High + Rx=Statin,3,0.11794536234254867
+BMI=Obese + Cholesterol=High + Diabetes=No,3,0.11778177654179617
+Age=30-44 + Diet=SugarHigh + Hypertension=No,3,0.11761819074104368
+Age=45-59 + Diet=SodiumHigh + Rx=Antihypertensive,3,0.11761819074104368
+Age=60+ + Risk=High + Smoking=Never,3,0.11761819074104368
+BMI=Normal + Risk=NotHigh + Sex=Female,3,0.11745460494029118
+BMI=Obese + Hypertension=Yes + Smoking=Never,3,0.11729101913953868
+Diabetes=Yes + Diet=SodiumHigh + Risk=High,3,0.11729101913953868
+Age=60+ + Risk=High + Sex=Male,3,0.1169638475380337
+Alcohol=Regular + Risk=High + Rx=Statin,3,0.11680026173728121
+Age=18-29 + Diet=SugarHigh + Rx=Antihypertensive,3,0.11647309013577621
+Age=60+ + Hypertension=Yes + Smoking=Ever,3,0.11647309013577621
+Rx=Antihypertensive + Sex=Female + Smoking=Ever,3,0.11598233273351873
+Age=60+ + Rx=Antihypertensive + Sex=Female,3,0.11565516113201374
+Cholesterol=High + Hypertension=No + Risk=High,3,0.11565516113201374
+Diet=FiberLow + Sex=Female + Smoking=Ever,3,0.11565516113201374
+Age=18-29 + Rx=Antihypertensive + Smoking=Never,3,0.11549157533126124
+Age=30-44 + Cholesterol=High + Diet=SodiumHigh,3,0.11549157533126124
+Activity=Active + Diet=SugarHigh + Hypertension=Yes,3,0.11532798953050875
+Age=30-44 + Risk=NotHigh + Rx=Antihypertensive,3,0.11532798953050875
+BMI=Normal + Diet=SugarHigh + Smoking=Never,3,0.11532798953050875
+BMI=Obese + Cholesterol=High + Smoking=Ever,3,0.11532798953050875
+BMI=Overweight + Risk=High + Rx=Antihypertensive,3,0.11500081792900377
+Activity=SedentaryHigh + Alcohol=Regular + Diet=SugarHigh,3,0.11483723212825127
+Age=18-29 + Cholesterol=Normal + Diabetes=No,3,0.11483723212825127
+Activity=Active + Cholesterol=Normal + Rx=Antihypertensive,3,0.11451006052674628
+Activity=Active + Risk=NotHigh + Sex=Male,3,0.11451006052674628
+Activity=SedentaryHigh + Alcohol=Regular + Rx=Antihypertensive,3,0.11451006052674628
+Activity=Active + Alcohol=Regular + Sex=Female,3,0.11434647472599378
+BMI=Overweight + Cholesterol=High + Smoking=Never,3,0.11434647472599378
+Diabetes=Prediabetes + Hypertension=Yes + Risk=High,3,0.11434647472599378
+BMI=Normal + Diet=SodiumHigh + Sex=Male,3,0.11418288892524128
+Diet=SugarHigh + Sex=Female + Smoking=Ever,3,0.11418288892524128
+Age=18-29 + Diabetes=No + Diet=FiberLow,3,0.1140193031244888
+Diet=FiberLow + Risk=NotHigh + Sex=Female,3,0.1140193031244888
+Diet=SodiumHigh + Hypertension=No + Risk=High,3,0.1140193031244888
+Activity=SedentaryHigh + Cholesterol=High + Diet=SodiumHigh,3,0.11369213152298381
+Age=60+ + Diet=SodiumHigh + Sex=Male,3,0.11369213152298381
+Diabetes=No + Hypertension=Yes + Sex=Female,3,0.11369213152298381
+BMI=Obese + Diet=SodiumHigh + Smoking=Ever,3,0.11320137412072633
+Diabetes=Prediabetes + Risk=High + Rx=Antihypertensive,3,0.11303778831997383
+Activity=Active + Diabetes=No + Sex=Female,3,0.11287420251922133
+Age=30-44 + Rx=Antihypertensive + Smoking=Never,3,0.11287420251922133
+Age=60+ + Cholesterol=High + Smoking=Ever,3,0.11287420251922133
+Activity=SedentaryHigh + Diabetes=No + Diet=SodiumHigh,3,0.11271061671846884
+Cholesterol=Normal + Diet=FiberLow + Sex=Female,3,0.11271061671846884
+Age=18-29 + Alcohol=Regular + Risk=NotHigh,3,0.11254703091771634
+Age=60+ + Rx=Antihypertensive + Smoking=Ever,3,0.11254703091771634
+Age=60+ + Cholesterol=High + Smoking=Never,3,0.11189268771470637
+BMI=Normal + Cholesterol=Normal + Hypertension=No,3,0.11172910191395387
+Age=60+ + Alcohol=Regular + Diet=FiberLow,3,0.11156551611320137
+Alcohol=Regular + BMI=Normal + Cholesterol=Normal,3,0.11156551611320137
+Age=60+ + Hypertension=Yes + Rx=Statin,3,0.11123834451169638
+Age=18-29 + Cholesterol=Normal + Risk=NotHigh,3,0.1110747587109439
+BMI=Normal + Diabetes=No + Diet=FiberLow,3,0.1110747587109439
+BMI=Obese + Rx=Antihypertensive + Sex=Male,3,0.1110747587109439
+Age=60+ + Hypertension=Yes + Sex=Male,3,0.1109111729101914
+Cholesterol=Normal + Diet=SodiumHigh + Smoking=Ever,3,0.1109111729101914
+Age=60+ + Rx=Antihypertensive + Smoking=Never,3,0.1107475871094389
+Cholesterol=Normal + Hypertension=No + Sex=Male,3,0.1107475871094389
+Hypertension=Yes + Sex=Male + Smoking=Never,3,0.11058400130868641
+Alcohol=Regular + Diabetes=Yes + Risk=High,3,0.11025682970718141
+BMI=Normal + Cholesterol=Normal + Rx=Antihypertensive,3,0.11025682970718141
+Cholesterol=High + Hypertension=No + Smoking=Ever,3,0.11025682970718141
+Activity=Active + BMI=Obese + Risk=High,3,0.10960248650417144
+Activity=Active + Diabetes=No + Smoking=Ever,3,0.10960248650417144
+Activity=Active + Sex=Male + Smoking=Ever,3,0.10943890070341894
+Alcohol=Regular + BMI=Normal + Smoking=Never,3,0.10943890070341894
+Alcohol=Regular + Diabetes=Prediabetes + Risk=High,3,0.10943890070341894
+Activity=SedentaryHigh + Alcohol=Regular + Cholesterol=High,3,0.10927531490266645
+Age=30-44 + Alcohol=Regular + Cholesterol=High,3,0.10927531490266645
+BMI=Normal + Sex=Female + Smoking=Never,3,0.10927531490266645
+Activity=Active + Cholesterol=High + Diet=FiberLow,3,0.10911172910191395
+Activity=SedentaryHigh + Hypertension=Yes + Risk=High,3,0.10911172910191395
+BMI=Normal + Diet=SodiumHigh + Sex=Female,3,0.10911172910191395
+BMI=Obese + Cholesterol=High + Sex=Male,3,0.10911172910191395
+Diabetes=No + Hypertension=Yes + Smoking=Ever,3,0.10911172910191395
+Hypertension=No + Risk=NotHigh + Smoking=Ever,3,0.10911172910191395
+Age=45-59 + Cholesterol=High + Diet=SugarHigh,3,0.10894814330116145
+Age=60+ + Diet=SodiumHigh + Smoking=Ever,3,0.10894814330116145
+Diet=FiberLow + Hypertension=No + Sex=Male,3,0.10878455750040897
+Diet=FiberLow + Hypertension=No + Smoking=Ever,3,0.10878455750040897
+Activity=Active + Alcohol=Regular + BMI=Overweight,3,0.10862097169965647
+Age=18-29 + Alcohol=Regular + Diet=SugarHigh,3,0.10862097169965647
+Age=18-29 + Alcohol=Regular + Rx=Antihypertensive,3,0.10845738589890397
+Cholesterol=High + Diabetes=Yes + Hypertension=Yes,3,0.10845738589890397
+Activity=Active + Rx=Antihypertensive + Sex=Female,3,0.10829380009815148
+Age=45-59 + Cholesterol=High + Risk=High,3,0.10813021429739898
+Cholesterol=High + Diabetes=Prediabetes + Diet=SodiumHigh,3,0.10813021429739898
+Activity=Active + Diet=SugarHigh + Sex=Female,3,0.1079666284966465
+Cholesterol=High + Diabetes=Yes + Rx=Antihypertensive,3,0.1079666284966465
+Alcohol=Regular + BMI=Normal + Sex=Male,3,0.107803042695894
+Age=60+ + Rx=Antihypertensive + Sex=Male,3,0.1076394568951415
+Diet=SodiumHigh + Risk=NotHigh + Smoking=Ever,3,0.1076394568951415
+BMI=Overweight + Rx=Antihypertensive + Smoking=Ever,3,0.10747587109438901
+Hypertension=No + Sex=Male + Smoking=Ever,3,0.10747587109438901
+Age=30-44 + Diet=SugarHigh + Risk=NotHigh,3,0.10731228529363651
+Activity=Active + Hypertension=No + Sex=Male,3,0.10714869949288401
+Age=18-29 + Diet=SugarHigh + Smoking=Never,3,0.10714869949288401
+BMI=Normal + Hypertension=No + Sex=Female,3,0.10714869949288401
+Age=60+ + Diet=SodiumHigh + Smoking=Never,3,0.10698511369213153
+Activity=Active + BMI=Obese + Diet=SodiumHigh,3,0.10682152789137903
+Activity=Active + Cholesterol=High + Smoking=Ever,3,0.10682152789137903
+BMI=Overweight + Risk=NotHigh + Sex=Male,3,0.10682152789137903
+Activity=Active + BMI=Overweight + Diet=SodiumHigh,3,0.10665794209062654
+Diabetes=Prediabetes + Diet=SodiumHigh + Rx=Antihypertensive,3,0.10665794209062654
+Age=45-59 + Alcohol=Regular + Diabetes=No,3,0.10649435628987404
+BMI=Overweight + Diet=SugarHigh + Hypertension=Yes,3,0.10649435628987404
+Activity=SedentaryHigh + Alcohol=Regular + Diabetes=No,3,0.10616718468836905
+Activity=SedentaryHigh + Risk=High + Rx=Antihypertensive,3,0.10616718468836905
+Age=30-44 + Alcohol=Regular + Smoking=Never,3,0.10616718468836905
+BMI=Overweight + Diet=SodiumHigh + Sex=Female,3,0.10616718468836905
+BMI=Overweight + Rx=Antihypertensive + Sex=Female,3,0.10616718468836905
+Diabetes=No + Sex=Female + Smoking=Ever,3,0.10616718468836905
+Diabetes=Prediabetes + Diet=SodiumHigh + Diet=SugarHigh,3,0.10616718468836905
+Activity=Active + Cholesterol=Normal + Diet=SugarHigh,3,0.10600359888761655
+Activity=Active + Diet=FiberLow + Risk=High,3,0.10600359888761655
+Age=18-29 + Cholesterol=Normal + Hypertension=No,3,0.10600359888761655
+BMI=Overweight + Diet=SugarHigh + Smoking=Ever,3,0.10584001308686405
+Diabetes=Prediabetes + Diet=SugarHigh + Risk=High,3,0.10584001308686405
+BMI=Overweight + Cholesterol=High + Smoking=Ever,3,0.10534925568460658
+Activity=Active + Diet=FiberLow + Hypertension=No,3,0.10518566988385408
+Age=30-44 + Diabetes=No + Sex=Female,3,0.10518566988385408
+Cholesterol=High + Diabetes=Prediabetes + Rx=Antihypertensive,3,0.10518566988385408
+Activity=SedentaryHigh + Diet=SodiumHigh + Smoking=Never,3,0.10502208408310158
+Alcohol=Regular + Hypertension=Yes + Rx=Statin,3,0.10502208408310158
+Diabetes=Yes + Hypertension=Yes + Rx=Antihypertensive,3,0.10502208408310158
+Age=30-44 + Alcohol=Regular + Diet=FiberLow,3,0.1048584982823491
+Age=45-59 + Alcohol=Regular + Hypertension=Yes,3,0.1048584982823491
+Age=45-59 + Diet=SodiumHigh + Risk=High,3,0.1048584982823491
+Age=30-44 + Diet=SodiumHigh + Sex=Male,3,0.1046949124815966
+Alcohol=Regular + Hypertension=No + Risk=High,3,0.1046949124815966
+BMI=Normal + Diabetes=No + Sex=Male,3,0.1046949124815966
+BMI=Obese + Diabetes=No + Smoking=Never,3,0.1046949124815966
+Activity=Active + Sex=Female + Smoking=Never,3,0.1045313266808441
+Activity=SedentaryHigh + Diet=SugarHigh + Rx=Antihypertensive,3,0.1045313266808441
+Age=60+ + Diet=FiberLow + Diet=SodiumHigh,3,0.1045313266808441
+BMI=Normal + Rx=Antihypertensive + Sex=Male,3,0.1045313266808441
+Diet=SodiumHigh + Hypertension=Yes + Rx=Statin,3,0.1045313266808441
+Age=60+ + Rx=Antihypertensive + Rx=Statin,3,0.10436774088009161
+BMI=Obese + Rx=Antihypertensive + Smoking=Ever,3,0.10436774088009161
+BMI=Obese + Diet=FiberLow + Smoking=Never,3,0.10420415507933911
+BMI=Overweight + Diet=FiberLow + Risk=High,3,0.10420415507933911
+Diet=FiberLow + Sex=Male + Smoking=Never,3,0.10420415507933911
+Age=30-44 + Risk=NotHigh + Smoking=Never,3,0.10404056927858663
+Age=45-59 + Cholesterol=High + Rx=Antihypertensive,3,0.10404056927858663
+Activity=SedentaryHigh + Diet=SugarHigh + Risk=High,3,0.10387698347783413
+Age=18-29 + Diet=FiberLow + Hypertension=No,3,0.10387698347783413
+Age=30-44 + Diet=SugarHigh + Smoking=Never,3,0.10387698347783413
+Alcohol=Regular + BMI=Overweight + Sex=Female,3,0.10387698347783413
+BMI=Normal + Cholesterol=Normal + Diet=SugarHigh,3,0.10387698347783413
+Activity=Active + Hypertension=Yes + Sex=Male,3,0.10371339767708163
+BMI=Overweight + Diet=SugarHigh + Risk=High,3,0.10371339767708163
+Cholesterol=High + Diabetes=Yes + Diet=SodiumHigh,3,0.10371339767708163
+Age=30-44 + Cholesterol=High + Diet=SugarHigh,3,0.10354981187632914
+Diet=SugarHigh + Risk=NotHigh + Smoking=Ever,3,0.10354981187632914
+Activity=Active + Cholesterol=High + Hypertension=No,3,0.10338622607557664
+BMI=Normal + Risk=NotHigh + Sex=Male,3,0.10338622607557664
+BMI=Overweight + Diabetes=No + Sex=Female,3,0.10338622607557664
+Alcohol=Regular + Diabetes=Prediabetes + Diet=SodiumHigh,3,0.10322264027482414
+Cholesterol=Normal + Diabetes=No + Smoking=Ever,3,0.10322264027482414
+Age=60+ + BMI=Obese + Risk=High,3,0.10289546867331915
+BMI=Obese + Diet=SugarHigh + Sex=Male,3,0.10289546867331915
+Age=30-44 + Cholesterol=High + Diabetes=No,3,0.10273188287256665
+Age=30-44 + Hypertension=No + Smoking=Never,3,0.10273188287256665
+BMI=Overweight + Cholesterol=Normal + Risk=NotHigh,3,0.10273188287256665
+Age=60+ + Cholesterol=High + Sex=Male,3,0.10256829707181417
+BMI=Overweight + Hypertension=No + Smoking=Never,3,0.10256829707181417
+Age=60+ + Diet=SodiumHigh + Sex=Female,3,0.10224112547030918
+BMI=Overweight + Cholesterol=Normal + Diet=SodiumHigh,3,0.10224112547030918
+BMI=Overweight + Diet=FiberLow + Smoking=Never,3,0.10224112547030918
+BMI=Normal + Cholesterol=High + Diet=SodiumHigh,3,0.10207753966955668
+Activity=Active + Risk=High + Smoking=Ever,3,0.10191395386880418
+BMI=Normal + Diet=FiberLow + Rx=Antihypertensive,3,0.10191395386880418
+Age=45-59 + Diet=SodiumHigh + Hypertension=Yes,3,0.1017503680680517
+Alcohol=Regular + Cholesterol=Normal + Hypertension=Yes,3,0.1017503680680517
+Age=45-59 + Alcohol=Regular + Risk=High,3,0.1015867822672992
+Age=45-59 + Diet=SugarHigh + Rx=Antihypertensive,3,0.1015867822672992
+Activity=Active + Sex=Male + Smoking=Never,3,0.1014231964665467
+Age=30-44 + Diabetes=No + Diet=FiberLow,3,0.1014231964665467
+Alcohol=Regular + BMI=Normal + Diet=FiberLow,3,0.1014231964665467
+Activity=Active + Cholesterol=Normal + Hypertension=No,3,0.10125961066579421
+Age=30-44 + Alcohol=Regular + Sex=Male,3,0.10109602486504171
+Age=30-44 + Cholesterol=High + Rx=Antihypertensive,3,0.10109602486504171
+BMI=Normal + Cholesterol=Normal + Smoking=Never,3,0.10076885326353673
+BMI=Overweight + Diet=SugarHigh + Sex=Female,3,0.10076885326353673
+Activity=Active + Diet=FiberLow + Smoking=Never,3,0.10060526746278423
+BMI=Obese + Hypertension=Yes + Smoking=Ever,3,0.10060526746278423
+BMI=Overweight + Sex=Female + Smoking=Never,3,0.10060526746278423
+Cholesterol=Normal + Diet=SodiumHigh + Hypertension=Yes,3,0.10027809586127924
+Age=45-59 + Alcohol=Regular + Sex=Male,3,0.10011451006052674
+Diet=SugarHigh + Hypertension=No + Risk=High,3,0.10011451006052674
+Age=18-29 + Diabetes=No + Sex=Female,3,0.09995092425977425
+BMI=Obese + Diabetes=No + Sex=Female,3,0.09995092425977425
+Cholesterol=High + Diet=SugarHigh + Rx=Statin,3,0.09995092425977425
+Activity=Active + Alcohol=Regular + BMI=Obese,3,0.09978733845902175
+Alcohol=Regular + BMI=Normal + Sex=Female,3,0.09978733845902175
+BMI=Overweight + Diet=FiberLow + Hypertension=No,3,0.09978733845902175
+Cholesterol=Normal + Hypertension=Yes + Rx=Antihypertensive,3,0.09978733845902175
+Cholesterol=Normal + Sex=Male + Smoking=Never,3,0.09978733845902175
+Age=45-59 + Cholesterol=High + Hypertension=Yes,3,0.09946016685751677
+Age=60+ + BMI=Overweight + Risk=High,3,0.09946016685751677
+Activity=Active + Cholesterol=High + Sex=Female,3,0.09929658105676427
+Age=45-59 + Diabetes=No + Diet=SodiumHigh,3,0.09929658105676427
+BMI=Normal + Diet=FiberLow + Diet=SodiumHigh,3,0.09929658105676427
+BMI=Overweight + Cholesterol=Normal + Diabetes=No,3,0.09929658105676427
+Cholesterol=High + Diabetes=Prediabetes + Diet=SugarHigh,3,0.09929658105676427
+Age=30-44 + Diet=SodiumHigh + Sex=Female,3,0.09913299525601178
+Age=45-59 + Alcohol=Regular + Smoking=Ever,3,0.09913299525601178
+BMI=Normal + Rx=Antihypertensive + Sex=Female,3,0.09913299525601178
+BMI=Overweight + Sex=Male + Smoking=Ever,3,0.09913299525601178
+Cholesterol=Normal + Rx=Antihypertensive + Smoking=Ever,3,0.09913299525601178
+Activity=SedentaryHigh + Diabetes=No + Diet=SugarHigh,3,0.09896940945525928
+Alcohol=Regular + Diabetes=Prediabetes + Rx=Antihypertensive,3,0.09896940945525928
+Activity=SedentaryHigh + Cholesterol=High + Rx=Antihypertensive,3,0.0986422378537543
+Alcohol=Regular + BMI=Overweight + Cholesterol=Normal,3,0.0986422378537543
+Age=18-29 + Cholesterol=Normal + Diet=SodiumHigh,3,0.0984786520530018
+Alcohol=Regular + Cholesterol=High + Diabetes=Yes,3,0.0984786520530018
+Alcohol=Regular + Diet=SodiumHigh + Rx=Statin,3,0.0984786520530018
+BMI=Obese + Diet=SodiumHigh + Hypertension=No,3,0.0984786520530018
+BMI=Obese + Diet=SugarHigh + Smoking=Ever,3,0.0984786520530018
+Cholesterol=Normal + Diet=SugarHigh + Smoking=Ever,3,0.0984786520530018
+Activity=SedentaryHigh + Cholesterol=High + Diet=SugarHigh,3,0.09831506625224931
+Hypertension=Yes + Sex=Female + Smoking=Ever,3,0.09831506625224931
+Alcohol=Regular + BMI=Normal + Smoking=Ever,3,0.09815148045149681
+BMI=Overweight + Diet=FiberLow + Sex=Female,3,0.09815148045149681
+Age=45-59 + Hypertension=Yes + Rx=Antihypertensive,3,0.09798789465074431
+BMI=Normal + Diet=SugarHigh + Sex=Female,3,0.09798789465074431
+Alcohol=Regular + Cholesterol=High + Diabetes=Prediabetes,3,0.09782430884999183
+Cholesterol=High + Risk=NotHigh + Sex=Male,3,0.09766072304923933
+Activity=Active + Hypertension=No + Sex=Female,3,0.09749713724848683
+Age=45-59 + Hypertension=Yes + Risk=High,3,0.09749713724848683
+Risk=NotHigh + Rx=Antihypertensive + Smoking=Ever,3,0.09749713724848683
+Activity=Active + BMI=Obese + Rx=Antihypertensive,3,0.09733355144773434
+Activity=Active + BMI=Overweight + Rx=Antihypertensive,3,0.09733355144773434
+Age=18-29 + Hypertension=No + Sex=Female,3,0.09733355144773434
+Alcohol=Regular + Rx=Antihypertensive + Rx=Statin,3,0.09733355144773434
+Diet=FiberLow + Risk=NotHigh + Sex=Male,3,0.09733355144773434
+Activity=Active + BMI=Obese + Cholesterol=High,3,0.09716996564698184
+Activity=Active + Diet=FiberLow + Sex=Male,3,0.09716996564698184
+Cholesterol=High + Diabetes=Prediabetes + Hypertension=Yes,3,0.09716996564698184
+BMI=Normal + Diet=FiberLow + Risk=NotHigh,3,0.09700637984622935
+Diabetes=Prediabetes + Hypertension=Yes + Rx=Antihypertensive,3,0.09684279404547685
+Diet=FiberLow + Risk=High + Rx=Statin,3,0.09684279404547685
+Diet=SugarHigh + Risk=High + Rx=Statin,3,0.09667920824472435
+BMI=Obese + Diabetes=No + Diet=FiberLow,3,0.09651562244397187
+BMI=Overweight + Cholesterol=High + Sex=Female,3,0.09651562244397187
+Activity=Active + Risk=High + Sex=Male,3,0.09635203664321937
+Age=30-44 + Alcohol=Regular + Sex=Female,3,0.09635203664321937
+BMI=Overweight + Risk=High + Smoking=Ever,3,0.09618845084246687
+Age=30-44 + Diet=FiberLow + Diet=SodiumHigh,3,0.09602486504171438
+Age=45-59 + Diet=SodiumHigh + Sex=Male,3,0.09602486504171438
+Age=60+ + Sex=Female + Smoking=Never,3,0.09602486504171438
+Alcohol=Regular + BMI=Normal + Cholesterol=High,3,0.09602486504171438
+Diet=SodiumHigh + Rx=Antihypertensive + Rx=Statin,3,0.09586127924096188
+Age=60+ + Diet=FiberLow + Sex=Female,3,0.09569769344020938
+BMI=Normal + Diet=SugarHigh + Sex=Male,3,0.09569769344020938
+Activity=SedentaryHigh + Diet=FiberLow + Risk=High,3,0.0955341076394569
+Age=60+ + Diabetes=Yes + Risk=High,3,0.0955341076394569
+BMI=Overweight + Hypertension=Yes + Sex=Male,3,0.0955341076394569
+Age=18-29 + Diabetes=No + Sex=Male,3,0.09520693603795191
+Age=30-44 + Hypertension=No + Sex=Female,3,0.09520693603795191
+BMI=Obese + Hypertension=Yes + Sex=Male,3,0.09520693603795191
+Activity=Active + Diet=FiberLow + Sex=Female,3,0.09504335023719941
+Activity=SedentaryHigh + Rx=Antihypertensive + Smoking=Never,3,0.09504335023719941
+BMI=Overweight + Diet=FiberLow + Sex=Male,3,0.09504335023719941
+Diet=FiberLow + Hypertension=No + Risk=High,3,0.09504335023719941
+Age=18-29 + Diet=FiberLow + Rx=Antihypertensive,3,0.09487976443644691
+Age=60+ + Diet=FiberLow + Diet=SugarHigh,3,0.09487976443644691
+Diabetes=Prediabetes + Diet=SugarHigh + Rx=Antihypertensive,3,0.09455259283494193
+Diabetes=No + Risk=High + Sex=Male,3,0.09438900703418943
+Diabetes=Yes + Diet=SodiumHigh + Rx=Antihypertensive,3,0.09438900703418943
+Activity=SedentaryHigh + Alcohol=Regular + Diet=FiberLow,3,0.09422542123343694
+BMI=Overweight + Cholesterol=High + Hypertension=No,3,0.09422542123343694
+BMI=Overweight + Hypertension=No + Sex=Male,3,0.09422542123343694
+Cholesterol=Normal + Diet=FiberLow + Sex=Male,3,0.09422542123343694
+Age=30-44 + Cholesterol=Normal + Diabetes=No,3,0.09406183543268444
+Diabetes=Yes + Diet=SodiumHigh + Hypertension=Yes,3,0.09406183543268444
+BMI=Overweight + Cholesterol=Normal + Rx=Antihypertensive,3,0.09389824963193195
+BMI=Normal + Cholesterol=High + Rx=Antihypertensive,3,0.09340749222967447
+BMI=Overweight + Diet=FiberLow + Hypertension=Yes,3,0.09340749222967447
+Activity=SedentaryHigh + Diabetes=No + Rx=Antihypertensive,3,0.09324390642892197
+Cholesterol=High + Diet=FiberLow + Rx=Statin,3,0.09324390642892197
+Age=18-29 + Diet=FiberLow + Diet=SodiumHigh,3,0.09308032062816947
+Age=30-44 + Diet=FiberLow + Rx=Antihypertensive,3,0.09308032062816947
+Diabetes=Prediabetes + Diet=SodiumHigh + Hypertension=Yes,3,0.09308032062816947
+Age=60+ + Diet=SodiumHigh + Rx=Statin,3,0.09291673482741698
+Age=60+ + Diet=SugarHigh + Sex=Male,3,0.09291673482741698
+Age=45-59 + Alcohol=Regular + Diet=FiberLow,3,0.09275314902666448
+Age=60+ + Diet=SugarHigh + Smoking=Never,3,0.09275314902666448
+Age=45-59 + Diet=SodiumHigh + Smoking=Never,3,0.092589563225912
+Age=30-44 + Cholesterol=Normal + Risk=NotHigh,3,0.0924259774251595
+Age=60+ + Alcohol=Regular + Rx=Statin,3,0.0924259774251595
+Cholesterol=High + Risk=NotHigh + Sex=Female,3,0.0924259774251595
+Diabetes=No + Risk=High + Smoking=Never,3,0.0924259774251595
+Activity=Active + Age=18-29 + Diabetes=No,3,0.092262391624407
+Activity=Active + BMI=Obese + Diet=SugarHigh,3,0.092262391624407
+Activity=Active + BMI=Overweight + Diet=SugarHigh,3,0.092262391624407
+Age=18-29 + Cholesterol=Normal + Rx=Antihypertensive,3,0.092262391624407
+Age=60+ + BMI=Overweight + Hypertension=Yes,3,0.092262391624407
+Activity=SedentaryHigh + Diet=SodiumHigh + Sex=Male,3,0.09209880582365451
+BMI=Overweight + Diabetes=No + Smoking=Ever,3,0.09209880582365451
+Age=30-44 + Diet=SugarHigh + Sex=Female,3,0.09193522002290201
+Age=30-44 + Rx=Antihypertensive + Sex=Male,3,0.09193522002290201
+Age=30-44 + Sex=Female + Smoking=Never,3,0.09177163422214951
+BMI=Normal + Cholesterol=High + Diabetes=No,3,0.09177163422214951
+Activity=Active + Diet=FiberLow + Smoking=Ever,3,0.09160804842139703
+Age=30-44 + Diabetes=No + Sex=Male,3,0.09160804842139703
+Alcohol=Regular + Diabetes=Yes + Diet=SodiumHigh,3,0.09160804842139703
+Age=18-29 + Cholesterol=Normal + Smoking=Never,3,0.09128087681989204
+Age=30-44 + Alcohol=Regular + Smoking=Ever,3,0.09128087681989204
+Alcohol=Regular + BMI=Obese + Hypertension=No,3,0.09111729101913954
+BMI=Overweight + Diet=FiberLow + Smoking=Ever,3,0.09095370521838704
+Age=18-29 + Alcohol=Regular + Smoking=Never,3,0.09079011941763455
+Age=60+ + BMI=Overweight + Cholesterol=High,3,0.09079011941763455
+Age=60+ + Diet=SugarHigh + Smoking=Ever,3,0.09079011941763455
+Activity=Active + BMI=Overweight + Diabetes=No,3,0.09062653361688205
+Age=60+ + Diet=SugarHigh + Sex=Female,3,0.09062653361688205
+BMI=Overweight + Sex=Male + Smoking=Never,3,0.09062653361688205
+Diabetes=Yes + Diet=FiberLow + Risk=High,3,0.09062653361688205
+Activity=Active + Diabetes=No + Hypertension=Yes,3,0.09046294781612955
+Alcohol=Regular + Diabetes=Prediabetes + Diet=SugarHigh,3,0.09046294781612955
+Risk=NotHigh + Sex=Male + Smoking=Ever,3,0.09046294781612955
+Activity=Active + Age=30-44 + Diet=SodiumHigh,3,0.09013577621462457
+Activity=SedentaryHigh + Alcohol=Regular + Hypertension=Yes,3,0.09013577621462457
+Age=18-29 + Diet=SodiumHigh + Sex=Male,3,0.08980860461311958
+Age=60+ + Alcohol=Regular + Sex=Female,3,0.08980860461311958
+BMI=Normal + Cholesterol=High + Diet=SugarHigh,3,0.08980860461311958
+Diabetes=Yes + Diet=SugarHigh + Risk=High,3,0.08980860461311958
+Activity=SedentaryHigh + Diet=SodiumHigh + Hypertension=Yes,3,0.08964501881236708
+BMI=Obese + Cholesterol=High + Hypertension=No,3,0.08964501881236708
+BMI=Overweight + Cholesterol=Normal + Diet=SugarHigh,3,0.08964501881236708
+Activity=SedentaryHigh + Diet=FiberLow + Diet=SodiumHigh,3,0.0894814330116146
+Age=30-44 + Rx=Antihypertensive + Sex=Female,3,0.0894814330116146
+Alcohol=Regular + Diabetes=Yes + Rx=Antihypertensive,3,0.0894814330116146
+BMI=Obese + Diabetes=No + Hypertension=Yes,3,0.0894814330116146
+BMI=Obese + Diet=SugarHigh + Hypertension=No,3,0.0894814330116146
+Activity=SedentaryHigh + Diet=SodiumHigh + Hypertension=No,3,0.0893178472108621
+Age=45-59 + Diabetes=No + Diet=SugarHigh,3,0.0893178472108621
+Activity=SedentaryHigh + Cholesterol=High + Hypertension=Yes,3,0.0891542614101096
+Activity=SedentaryHigh + Diabetes=No + Smoking=Never,3,0.0891542614101096
+Activity=SedentaryHigh + Diet=SugarHigh + Smoking=Never,3,0.0891542614101096
+BMI=Normal + Diet=FiberLow + Hypertension=No,3,0.08899067560935711
+BMI=Overweight + Diet=FiberLow + Risk=NotHigh,3,0.08899067560935711
+Risk=High + Rx=Statin + Smoking=Ever,3,0.08899067560935711
+Age=30-44 + Diet=SugarHigh + Sex=Male,3,0.08882708980860461
+Age=60+ + Sex=Male + Smoking=Ever,3,0.08866350400785211
+BMI=Overweight + Hypertension=Yes + Smoking=Never,3,0.08866350400785211
+Diet=SodiumHigh + Diet=SugarHigh + Rx=Statin,3,0.08866350400785211
+BMI=Normal + Diet=FiberLow + Diet=SugarHigh,3,0.08849991820709963
+Age=30-44 + Cholesterol=Normal + Diet=SodiumHigh,3,0.08833633240634713
+Age=30-44 + Diet=FiberLow + Diet=SugarHigh,3,0.08833633240634713
+Activity=Active + Age=30-44 + Alcohol=Regular,3,0.08817274660559464
+Age=30-44 + Alcohol=Regular + Cholesterol=Normal,3,0.08817274660559464
+Diabetes=No + Hypertension=Yes + Risk=NotHigh,3,0.08817274660559464
+Diabetes=Prediabetes + Diet=FiberLow + Risk=High,3,0.08817274660559464
+BMI=Normal + Diet=SodiumHigh + Smoking=Ever,3,0.08800916080484214
+Risk=High + Sex=Male + Smoking=Never,3,0.08800916080484214
+Activity=Active + Cholesterol=Normal + Smoking=Never,3,0.08768198920333715
+Activity=SedentaryHigh + Diabetes=No + Hypertension=No,3,0.08768198920333715
+Age=18-29 + Diet=FiberLow + Risk=NotHigh,3,0.08768198920333715
+Activity=SedentaryHigh + Alcohol=Regular + Sex=Male,3,0.08735481760183215
+Age=60+ + BMI=Obese + Hypertension=Yes,3,0.08735481760183215
+Activity=SedentaryHigh + BMI=Obese + Risk=High,3,0.08719123180107967
+Activity=SedentaryHigh + Hypertension=Yes + Rx=Antihypertensive,3,0.08719123180107967
+BMI=Obese + Diabetes=Yes + Risk=High,3,0.08719123180107967
+Diabetes=Prediabetes + Risk=High + Sex=Female,3,0.08719123180107967
+Activity=Active + Diet=FiberLow + Hypertension=Yes,3,0.08702764600032717
+Age=18-29 + BMI=Normal + Risk=NotHigh,3,0.08702764600032717
+Age=60+ + BMI=Overweight + Rx=Antihypertensive,3,0.08702764600032717
+Cholesterol=Normal + Risk=NotHigh + Smoking=Ever,3,0.08702764600032717
+Activity=SedentaryHigh + Diet=SodiumHigh + Sex=Female,3,0.08686406019957468
+Age=18-29 + Alcohol=Regular + Diet=FiberLow,3,0.08686406019957468
+Age=18-29 + BMI=Normal + Diabetes=No,3,0.08686406019957468
+Age=18-29 + Cholesterol=Normal + Diet=SugarHigh,3,0.08686406019957468
+BMI=Overweight + Diabetes=No + Hypertension=Yes,3,0.08686406019957468
+Activity=SedentaryHigh + Diet=FiberLow + Rx=Antihypertensive,3,0.08670047439882218
+Alcohol=Regular + Diabetes=Prediabetes + Hypertension=Yes,3,0.08670047439882218
+Alcohol=Regular + Diabetes=Yes + Hypertension=Yes,3,0.08670047439882218
+Diet=SugarHigh + Hypertension=Yes + Rx=Statin,3,0.08670047439882218
+Age=45-59 + Diet=SodiumHigh + Smoking=Ever,3,0.08653688859806968
+Activity=Active + Hypertension=Yes + Smoking=Never,3,0.0863733027973172
+Age=30-44 + Cholesterol=High + Hypertension=No,3,0.0863733027973172
+Activity=Active + BMI=Normal + Risk=NotHigh,3,0.0862097169965647
+Activity=Active + Diet=FiberLow + Risk=NotHigh,3,0.0862097169965647
+Activity=Active + Hypertension=Yes + Smoking=Ever,3,0.0862097169965647
+Cholesterol=Normal + Diabetes=No + Hypertension=Yes,3,0.08588254539505971
+Age=60+ + BMI=Overweight + Diet=SodiumHigh,3,0.08571895959430721
+Age=60+ + Diabetes=No + Hypertension=Yes,3,0.08555537379355473
+Activity=SedentaryHigh + Risk=High + Sex=Female,3,0.08539178799280223
+Cholesterol=High + Rx=Statin + Smoking=Ever,3,0.08539178799280223
+Diet=FiberLow + Hypertension=Yes + Rx=Statin,3,0.08539178799280223
+Age=60+ + Diet=FiberLow + Smoking=Ever,3,0.08522820219204973
+BMI=Obese + Diet=FiberLow + Smoking=Ever,3,0.08522820219204973
+Activity=Active + Cholesterol=Normal + Sex=Male,3,0.08506461639129724
+Activity=Active + Hypertension=No + Smoking=Ever,3,0.08506461639129724
+Activity=Active + Risk=NotHigh + Sex=Female,3,0.08506461639129724
+Age=18-29 + Diet=FiberLow + Diet=SugarHigh,3,0.08506461639129724
+Age=18-29 + Rx=Antihypertensive + Sex=Male,3,0.08506461639129724
+Age=30-44 + Cholesterol=High + Smoking=Never,3,0.08506461639129724
+Age=60+ + Alcohol=Regular + BMI=Overweight,3,0.08506461639129724
+Cholesterol=Normal + Diet=SugarHigh + Hypertension=Yes,3,0.08506461639129724
+Age=18-29 + Diet=FiberLow + Smoking=Never,3,0.08490103059054474
+Age=45-59 + Cholesterol=High + Smoking=Never,3,0.08490103059054474
+Age=45-59 + Diet=SugarHigh + Hypertension=Yes,3,0.08490103059054474
+Age=30-44 + Diet=SodiumHigh + Risk=High,3,0.08473744478979224
+BMI=Obese + Hypertension=No + Risk=High,3,0.08457385898903975
+Activity=SedentaryHigh + Alcohol=Regular + Smoking=Never,3,0.08441027318828725
+Age=30-44 + Diet=FiberLow + Hypertension=No,3,0.08441027318828725
+Activity=SedentaryHigh + Alcohol=Regular + Smoking=Ever,3,0.08424668738753477
+Age=18-29 + Sex=Female + Smoking=Never,3,0.08424668738753477
+Activity=Active + Age=18-29 + Diet=SodiumHigh,3,0.08408310158678227
+Activity=Active + Age=18-29 + Hypertension=No,3,0.08408310158678227
+Cholesterol=High + Rx=Statin + Sex=Female,3,0.08408310158678227
+Age=18-29 + Risk=NotHigh + Sex=Male,3,0.08391951578602977
+BMI=Normal + Diet=FiberLow + Smoking=Never,3,0.08391951578602977
+Age=18-29 + Diet=SodiumHigh + Sex=Female,3,0.08375592998527728
+Age=45-59 + Diabetes=No + Risk=NotHigh,3,0.08375592998527728
+Age=60+ + BMI=Obese + Cholesterol=High,3,0.08375592998527728
+Age=45-59 + Cholesterol=High + Sex=Female,3,0.08359234418452478
+Age=60+ + Alcohol=Regular + Diabetes=No,3,0.08359234418452478
+Cholesterol=High + Rx=Statin + Sex=Male,3,0.08359234418452478
+Activity=Active + BMI=Overweight + Risk=NotHigh,3,0.08342875838377228
+Age=30-44 + Diet=SodiumHigh + Smoking=Ever,3,0.08342875838377228
+BMI=Obese + Diabetes=No + Hypertension=No,3,0.08342875838377228
+Activity=Active + BMI=Overweight + Sex=Male,3,0.0832651725830198
+BMI=Normal + Hypertension=No + Sex=Male,3,0.0832651725830198
+Activity=Active + Cholesterol=Normal + Diet=FiberLow,3,0.0831015867822673
+Age=45-59 + Alcohol=Regular + Smoking=Never,3,0.0831015867822673
+Age=45-59 + Diet=SodiumHigh + Sex=Female,3,0.0831015867822673
+Age=45-59 + Diet=SugarHigh + Risk=High,3,0.0831015867822673
+BMI=Obese + Hypertension=No + Rx=Antihypertensive,3,0.0829380009815148
+BMI=Overweight + Risk=High + Sex=Male,3,0.0829380009815148
+Risk=High + Rx=Statin + Sex=Female,3,0.0829380009815148
+Age=45-59 + Diabetes=No + Rx=Antihypertensive,3,0.08277441518076231
+Age=60+ + BMI=Obese + Rx=Antihypertensive,3,0.08277441518076231
+BMI=Overweight + Cholesterol=Normal + Hypertension=No,3,0.08277441518076231
+BMI=Overweight + Hypertension=No + Sex=Female,3,0.08277441518076231
+Age=30-44 + Risk=NotHigh + Sex=Female,3,0.08261082938000981
+Age=60+ + Diabetes=Prediabetes + Risk=High,3,0.08261082938000981
+Age=18-29 + Risk=NotHigh + Sex=Female,3,0.08244724357925733
+Age=30-44 + Cholesterol=High + Risk=High,3,0.08244724357925733
+Age=45-59 + Risk=High + Rx=Antihypertensive,3,0.08244724357925733
+BMI=Obese + Diabetes=Prediabetes + Risk=High,3,0.08244724357925733
+BMI=Overweight + Cholesterol=High + Risk=NotHigh,3,0.08244724357925733
+Age=45-59 + Cholesterol=High + Diabetes=No,3,0.08228365777850483
+Age=60+ + Cholesterol=High + Diabetes=Yes,3,0.08228365777850483
+Age=60+ + Diabetes=No + Diet=SodiumHigh,3,0.08228365777850483
+Cholesterol=High + Rx=Statin + Smoking=Never,3,0.08228365777850483
+Cholesterol=Normal + Diet=FiberLow + Smoking=Ever,3,0.08228365777850483
+Age=18-29 + Hypertension=No + Sex=Male,3,0.08212007197775233
+Age=45-59 + Alcohol=Regular + Sex=Female,3,0.08212007197775233
+Age=45-59 + Rx=Antihypertensive + Smoking=Never,3,0.08212007197775233
+Diabetes=Yes + Diet=SodiumHigh + Diet=SugarHigh,3,0.08212007197775233
+Activity=Active + BMI=Normal + Diabetes=No,3,0.08195648617699984
+Age=18-29 + BMI=Normal + Hypertension=No,3,0.08195648617699984
+Activity=Active + Age=30-44 + Diabetes=No,3,0.08179290037624734
+Age=18-29 + Alcohol=Regular + Cholesterol=Normal,3,0.08162931457549484
+Age=45-59 + Diet=SugarHigh + Sex=Male,3,0.08162931457549484
+Age=60+ + Alcohol=Regular + Smoking=Never,3,0.08162931457549484
+BMI=Normal + Diet=FiberLow + Sex=Female,3,0.08162931457549484
+Diabetes=Prediabetes + Risk=High + Smoking=Ever,3,0.08162931457549484
+Hypertension=No + Sex=Female + Smoking=Ever,3,0.08162931457549484
+BMI=Normal + Cholesterol=High + Risk=NotHigh,3,0.08146572877474235
+BMI=Obese + Hypertension=No + Smoking=Never,3,0.08146572877474235
+Diabetes=Prediabetes + Diet=SugarHigh + Hypertension=Yes,3,0.08146572877474235
+Activity=Active + BMI=Normal + Diet=SodiumHigh,3,0.08130214297398985
+Activity=Active + Risk=High + Sex=Female,3,0.08130214297398985
+Activity=SedentaryHigh + Alcohol=Regular + Sex=Female,3,0.08130214297398985
+Cholesterol=High + Diabetes=Yes + Diet=SugarHigh,3,0.08113855717323737
+Cholesterol=Normal + Sex=Male + Smoking=Ever,3,0.08113855717323737
+Age=45-59 + Diet=FiberLow + Diet=SodiumHigh,3,0.08097497137248487
+Hypertension=No + Risk=High + Sex=Female,3,0.08097497137248487
+Activity=Active + Age=30-44 + Diet=SugarHigh,3,0.08081138557173237
+Activity=Active + BMI=Overweight + Cholesterol=High,3,0.08081138557173237
+Age=45-59 + Rx=Antihypertensive + Sex=Male,3,0.08081138557173237
+BMI=Normal + Diabetes=No + Smoking=Ever,3,0.08081138557173237
+Age=30-44 + Cholesterol=Normal + Hypertension=No,3,0.08064779977097988
+Age=45-59 + Alcohol=Regular + Risk=NotHigh,3,0.08064779977097988
+Age=60+ + Diabetes=Yes + Hypertension=Yes,3,0.08064779977097988
+Age=45-59 + BMI=Obese + Risk=High,3,0.08048421397022738
+Age=45-59 + Diet=SugarHigh + Smoking=Never,3,0.08048421397022738
+Age=60+ + Diet=FiberLow + Smoking=Never,3,0.08048421397022738
+Diabetes=Yes + Risk=High + Sex=Female,3,0.08048421397022738
+Age=18-29 + Cholesterol=High + Diabetes=No,3,0.08032062816947488
+Age=30-44 + Cholesterol=Normal + Rx=Antihypertensive,3,0.08032062816947488
+Diabetes=Yes + Risk=High + Smoking=Ever,3,0.08032062816947488
+Age=45-59 + Cholesterol=High + Sex=Male,3,0.0801570423687224
+Risk=High + Rx=Statin + Sex=Male,3,0.0801570423687224
